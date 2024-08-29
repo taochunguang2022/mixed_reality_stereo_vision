@@ -1,0 +1,164 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.Biometrics.Views.BioInstanceViewInfoModel, ErgoLAB",
+  "SelectedIndex": 0,
+  "DataSelectionModel": {
+    "$id": "2",
+    "$type": "ErgoLAB.Biometrics.Models.DataSelectionModel, ErgoLAB",
+    "SelectedSensorDataModel": {
+      "$id": "3",
+      "$type": "ErgoLAB.Project.Models.SensorDataModel, ErgoLAB",
+      "IsChecked": true,
+      "ProjFolderPath": "D:\\ergoLab\\begin",
+      "Id": "668ca4f3abcde342308a6f38"
+    },
+    "SelectedSegmentTypeModel": {
+      "$id": "4",
+      "$type": "ErgoLAB.Project.Models.SegmentTypeModel, ErgoLAB",
+      "GroupType": 2,
+      "Name": "block15",
+      "Stimuli": {
+        "$id": "5",
+        "$type": "ErgoLAB.Design.Models.StimuliModel, ErgoLAB",
+        "Background": "#FFFFFFFF",
+        "SelectedDock": 4,
+        "SelectedScaling": 0,
+        "MediaType": 0,
+        "Time": 1.0,
+        "SyncBoxMarkerValue": 0,
+        "IsTime": false,
+        "IsUseCustomSwitchType": true,
+        "IsWirelessController": false,
+        "ItemWidth": 0,
+        "ItemHeight": 0,
+        "RecordItemWidth": 0,
+        "RecordItemHeight": 0,
+        "IsShowMouseCursor": true,
+        "IsRecordSound": true,
+        "IsRecordMouse": true,
+        "AbsoluteFilePath": "",
+        "AbsoluteThumbnailPath": "",
+        "Is3DFile": false,
+        "FileSize": "1920,1080",
+        "VideoDuration": 0.0,
+        "HasRecording": false,
+        "IsCopy": false,
+        "AbsoluteAudioPath": "",
+        "AudioDuration": 0.0,
+        "HasAudio": false,
+        "IsCut": false,
+        "IsDoubleTap": true,
+        "AbsoluteTopFilePath": "",
+        "AbsoluteTopThumbnailPath": "",
+        "AbsoluteBottomFilePath": "",
+        "AbsoluteBottomThumbnailPath": "",
+        "IsGenerateSegment": true,
+        "IsGenerateStartEvent": true,
+        "IsGenerateEndEvent": true,
+        "Stimulis": {
+          "$type": "Stylet.BindableCollection`1[[ErgoLAB.Design.Models.StimuliModel, ErgoLAB]], Stylet",
+          "$values": []
+        },
+        "GroupOrderType": 0,
+        "IsUserEditSize": false,
+        "Size": 0,
+        "Repetition": 1,
+        "RankType": 0,
+        "AbsoluteRecFilePath": ""
+      },
+      "StimuliSize": "1920,1080",
+      "AllowIntervalEvent": false,
+      "Id": "654eefbc9dd6539d787b4a38"
+    }
+  },
+  "DataSelectionViewInfoModel": {
+    "$id": "6",
+    "$type": "ErgoLAB.Biometrics.Views.DataSelectionViewInfoModel, ErgoLAB",
+    "SegmentTypeSelectionViewInfoModel": {
+      "$id": "7",
+      "$type": "ErgoLAB.Project.Controls.SegmentTypeSelectionViewInfoModel, ErgoLAB",
+      "SegmentsIsExpanded": true,
+      "SegmentTypeListViewOffset": "0,0",
+      "LocalSegmentTypeListViewOffset": "0,0",
+      "SegmentTypeSearchSources": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "LastSelectedSegmentTypeModel": {
+        "$ref": "4"
+      },
+      "Type": 0,
+      "ActiveItemIndex": 0
+    },
+    "Type": 0,
+    "ActiveItemIndex": 0,
+    "IsItemClosable": false
+  },
+  "SegmentGroupCheckStatus": {
+    "$id": "8",
+    "$type": "System.Collections.Generic.Dictionary`2[[ErgoLAB.Common.Enums.SegmentGroupType, ErgoLAB.Common],[System.Boolean, mscorlib]], mscorlib",
+    "Custom": true,
+    "Image": true,
+    "Video": true,
+    "Webpage": true,
+    "MappingImage": false
+  },
+  "ChartSeriesVisibilities": {
+    "$id": "9",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib",
+    "RawData": true,
+    "_processedData": true,
+    "_rectifiedData": true,
+    "_thresholdData": true,
+    "_maxRpeakValues": true,
+    "_manualMaxRpeakValues": true,
+    "_ibiValues": true,
+    "_ectopicIndexes": true,
+    "_respRateData": true
+  },
+  "ChartAxisYRanges": {
+    "$id": "10",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib]], mscorlib",
+    "Processed": {
+      "$id": "11",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -100.0,
+      "Item2": 100.0
+    },
+    "Rate": {
+      "$id": "12",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 0.0,
+      "Item2": 1200.0
+    }
+  },
+  "SenorIsExpanded": true,
+  "TypeIsExpanded": true,
+  "ListIsExpanded": true,
+  "GeneralParamScrollOffset": "0,0",
+  "ExportOptionParamDict": {
+    "$id": "13",
+    "$type": "System.Collections.Generic.Dictionary`2[[ErgoLAB.Project.Models.ExportOptionType, ErgoLAB],[System.Boolean, mscorlib]], mscorlib",
+    "RawData": true,
+    "ProcessedData": true,
+    "Threshold": true,
+    "PSD_X": true,
+    "PSD_Y": true,
+    "RR": true,
+    "RI": true,
+    "RPeaks": true,
+    "Report": true,
+    "Info": true
+  },
+  "ExportTimeTypes": {
+    "$type": "System.Collections.Generic.List`1[[ErgoLAB.Project.Services.ExportTimeType, ErgoLAB]], mscorlib",
+    "$values": [
+      3
+    ]
+  },
+  "RecId": "668c9632abcde342308a6e94",
+  "Type": 24,
+  "ActiveItemIndex": 0,
+  "Title": "RESP 记录006",
+  "IconImageUri": "/ErgoLAB;component/Resources/RESP32.png"
+}

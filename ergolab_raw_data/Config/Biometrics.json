@@ -1,0 +1,65 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.AppFoundation.Models.FeatureViewInfoModel, ErgoLAB",
+  "Version": "3.16.13",
+  "ThemeColor": "#FF085298",
+  "Type": 7,
+  "ActiveItemIndex": 0,
+  "Title": "生理分析",
+  "SubViewInfoModels": {
+    "$type": "Stylet.BindableCollection`1[[ErgoLAB.AppFoundation.Models.ViewInfoModelBase, ErgoLAB]], Stylet",
+    "$values": [
+      {
+        "$id": "2",
+        "$type": "ErgoLAB.Biometrics.Views.BiometricsOverviewViewInfoModel, ErgoLAB",
+        "SelectedIndex": 2,
+        "GeneralRecordingGridOffset": "0,0",
+        "EMGRecordingGridOffset": "0,0",
+        "EDARecordingGridOffset": "0,0",
+        "HRVRRecordingGridOffset": "0,0",
+        "RESPRecordingGridOffset": "0,0",
+        "EEGRecordingGridOffset": "0,0",
+        "fNIRSRecordingGridOffset": "0,0",
+        "GeneralProcessingStepIsExpanded": true,
+        "GeneralFiltersIsExpanded": true,
+        "GeneralSmoothIsExpanded": true,
+        "GeneralScaleIsExpanded": true,
+        "GeneralResampleIsExpanded": true,
+        "EMGFiltersIsExpanded": true,
+        "EMGNormalizationIsExpanded": true,
+        "EDAFiltersIsExpanded": true,
+        "EDASkinConductanceResponseIsExpanded": true,
+        "EDAEventRelatedIsExpanded": true,
+        "HRVFiltersIsExpanded": true,
+        "HRVInterbeatIntervalIsExpanded": true,
+        "RESPFiltersIsExpanded": true,
+        "RESPInterbeatIntervalIsExpanded": true,
+        "EEGFiltersIsExpanded": true,
+        "EEGEventRelatedIsExpanded": true,
+        "fNIRSFiltersIsExpanded": true,
+        "fNIRSSettingIsExpanded": true,
+        "fNIRSEventRelatedIsExpanded": true,
+        "SearchBoxIsExpanded": false,
+        "SearchBoxValues": {
+          "$type": "System.String[], mscorlib",
+          "$values": []
+        },
+        "GeneralParamScrollOffset": "0,0",
+        "EDAParamScrollOffset": "0,0",
+        "EEGParamScrollOffset": "0,0",
+        "EMGParamScrollOffset": "0,0",
+        "HRVParamScrollOffset": "0,0",
+        "RESPParamScrollOffset": "0,0",
+        "fNIRSParamScrollOffset": "0,0",
+        "Type": 18,
+        "ActiveItemIndex": 0,
+        "Title": "概述",
+        "IconImageUri": "/ErgoLAB;component/Resources/View_Details-32.png",
+        "IsItemClosable": false,
+        "Parent": {
+          "$ref": "1"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.AppFoundation.Models.FeatureViewInfoModel, ErgoLAB",
+  "Version": "3.16.13",
+  "ThemeColor": "#FF673AB7",
+  "Type": 5,
+  "ActiveItemIndex": 0,
+  "Title": "记录回放",
+  "SubViewInfoModels": {
+    "$type": "Stylet.BindableCollection`1[[ErgoLAB.AppFoundation.Models.ViewInfoModelBase, ErgoLAB]], Stylet",
+    "$values": [
+      {
+        "$id": "2",
+        "$type": "ErgoLAB.Replay.Views.ReplayOverviewViewInfoModel, ErgoLAB",
+        "SelectedIndex": 0,
+        "SelectedRecordingId": "6555bd16abcde33348774e81",
+        "SearchBoxIsExpanded": false,
+        "SearchBoxValues": {
+          "$type": "System.String[], mscorlib",
+          "$values": []
+        },
+        "RecInformationViewInfoModel": {
+          "$id": "3",
+          "$type": "ErgoLAB.Replay.Controls.RecInformationViewInfoModel, ErgoLAB",
+          "IsSensorExpanded": true,
+          "IsCodingDataExpanded": true,
+          "IsEEGExpanded": true,
+          "IsVideoExpanded": true,
+          "IsGazeExpanded": true,
+          "IsMotionExpanded": true,
+          "IsVehicleExpanded": true,
+          "IsIndoorPositioningExpanded": true,
+          "IsStimuliExpanded": true,
+          "IsFSRExpanded": true,
+          "IsfNIRSExpanded": true,
+          "RecInformationOffset": "0,0"
+        },
+        "RecordingGridOffset": "0,0",
+        "Type": 11,
+        "ActiveItemIndex": 0,
+        "Title": "概述",
+        "IconImageUri": "/ErgoLAB;component/Resources/View_Details-32.png",
+        "Parent": {
+          "$ref": "1"
+        }
+      }
+    ]
+  }
+}

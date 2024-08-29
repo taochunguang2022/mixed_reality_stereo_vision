@@ -1,0 +1,9 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.StartPage.Views.StartPageViewInfoModel, ErgoLAB",
+  "Version": "3.16.13",
+  "ThemeColor": "#FF2196F3",
+  "Type": 1,
+  "ActiveItemIndex": 0,
+  "Title": "ErgoLAB"
+}

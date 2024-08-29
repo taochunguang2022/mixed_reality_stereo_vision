@@ -1,0 +1,35 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.AppFoundation.Models.FeatureViewInfoModel, ErgoLAB",
+  "Version": "3.16.13",
+  "ThemeColor": "#FF199466",
+  "Type": 6,
+  "ActiveItemIndex": 0,
+  "Title": "行为观察",
+  "SubViewInfoModels": {
+    "$type": "Stylet.BindableCollection`1[[ErgoLAB.AppFoundation.Models.ViewInfoModelBase, ErgoLAB]], Stylet",
+    "$values": [
+      {
+        "$id": "2",
+        "$type": "ErgoLAB.Observation.Views.ObservationOverviewViewInfoModel, ErgoLAB",
+        "BehaviorSearchBoxIsExpanded": false,
+        "SelectedIndex": 0,
+        "IsEDPExpanded": true,
+        "IsFCExpanded": true,
+        "SearchBoxIsExpanded": false,
+        "BehaviorRecordingGridOffset": "0,0",
+        "ExpressionRecordingGridOffset": "0,0",
+        "MotionRecordingGridOffset": "0,0",
+        "DrivingRecordingGridOffset": "0,0",
+        "TreeListOffset": "0,0",
+        "Type": 13,
+        "ActiveItemIndex": 0,
+        "Title": "概述",
+        "IconImageUri": "/ErgoLAB;component/Resources/View_Details-32.png",
+        "Parent": {
+          "$ref": "1"
+        }
+      }
+    ]
+  }
+}

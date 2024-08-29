@@ -1,0 +1,37 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.Design.Views.DesignViewInfoModel, ErgoLAB",
+  "ScreenBaseTimelinesOffset": "0,0",
+  "MobileDeviceTimelinesOffset": "0,0",
+  "VRTimelinesOffset": "0,0",
+  "FieldStudyTimelinesOffset": "0,0",
+  "ScreenBaseExpanderOffset": "0,0",
+  "MobileDeviceExpanderOffset": "0,0",
+  "VRExpanderOffset": "0,0",
+  "FieldStudyExpanderOffset": "0,0",
+  "ScreenTimelineIdGroupIdDict": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+    "6548458e9dd653552c51f028": "6548458e9dd653552c51f028"
+  },
+  "MobileHorizontalTimelineIdGroupIdDict": {
+    "$id": "3",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+    "6548458e9dd653552c51f02a": null
+  },
+  "MobileVerticalTimelineIdGroupIdDict": {
+    "$id": "4",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+    "6548458e9dd653552c51f02b": "6548458e9dd653552c51f02b"
+  },
+  "VRTimelineIdGroupIdDict": {
+    "$id": "5",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib",
+    "6548458e9dd653552c51f029": "6548458e9dd653552c51f029"
+  },
+  "Version": "3.16.13",
+  "ThemeColor": "#FF009688",
+  "Type": 3,
+  "ActiveItemIndex": 0,
+  "Title": "实验设计"
+}

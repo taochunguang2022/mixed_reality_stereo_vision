@@ -1,0 +1,11 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.AppFoundation.Views.MainViewInfoModel, ErgoLAB",
+  "Version": "3.16.13",
+  "Type": 0,
+  "ActiveItemIndex": 1,
+  "SubViewInfoModels": {
+    "$type": "Stylet.BindableCollection`1[[ErgoLAB.AppFoundation.Models.ViewInfoModelBase, ErgoLAB]], Stylet",
+    "$values": []
+  }
+}

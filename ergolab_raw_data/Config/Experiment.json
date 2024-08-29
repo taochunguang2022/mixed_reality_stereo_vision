@@ -1,0 +1,24 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.Experiment.Views.ExperimentViewInfoModel, ErgoLAB",
+  "ExpIndicatorDict": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib"
+  },
+  "SubVariableDict": {
+    "$id": "3",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib"
+  },
+  "ExperimentGridOffset": "0,0",
+  "InformationOffset": "0,0",
+  "SearchBoxIsExpanded": false,
+  "SubjectReportIsExpanded": true,
+  "PublishStatusIsExpanded": true,
+  "Version": "3.16.13",
+  "IsEnabled": false,
+  "ThemeColor": "#FF2196F3",
+  "Type": 9,
+  "ActiveItemIndex": 0,
+  "Title": "行为实验",
+  "IsItemClosable": false
+}

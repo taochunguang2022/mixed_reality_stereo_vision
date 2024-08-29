@@ -1,0 +1,203 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.Record.Views.RecordViewInfoModel, ErgoLAB",
+  "DeviceListOffset": "0,0",
+  "TimelinesOffset": "0,0",
+  "IndoorPositioningType": 0,
+  "TeaMotionIp": "127.0.0.1",
+  "TeaMotionPort": 7660,
+  "MotionDeviceType": 0,
+  "SCANeRServerIp": "127.0.0.1",
+  "SimulatorType": 0,
+  "IPv4Address": 3933147308,
+  "APIStreamChannel": "",
+  "APITypeEnableDict": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib"
+  },
+  "APISubscriptionDict": {
+    "$id": "3",
+    "$type": "System.Collections.Generic.Dictionary`2[[ErgoLAB.Common.Enums.DeviceType, ErgoLAB.Common],[System.ValueTuple`2[[ErgoLAB.Record.Services.SubscriptionProp, ErgoLAB],[System.String, mscorlib]], mscorlib]], mscorlib"
+  },
+  "TobiiFrequency": 0.0,
+  "aGlassFrequency": 0.0,
+  "ViveProEyeFrequency": 0.0,
+  "VREyetrackerType": 14,
+  "GazeDataType": 7,
+  "TobiiCacheTimeInMs": 40,
+  "RemoteEyetrackerType": 0,
+  "EyetrackerServerIP": "127.0.0.1",
+  "EyetrackerPort": 5002,
+  "SmartEyeWorldModel": {
+    "$id": "4",
+    "$type": "ErgoLAB.Record.Services.SmartEyeWorldModel, ErgoLAB"
+  },
+  "EEGCustomBandStart": 1,
+  "EEGCustomBandEnd": 49,
+  "EEGMinPower": -10,
+  "EEGMaxPower": 30,
+  "GNDChannelType": 0,
+  "EEGCacheTimeInSec": 1.0,
+  "EEGDeviceType": 1,
+  "IsFilterEnabled": true,
+  "ShowChannelIndex": false,
+  "EEGSignalIsVisible": true,
+  "EEGSignalVisibilityDic": {
+    "$id": "5",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib"
+  },
+  "EEGGroup": 1,
+  "fNIRSDeviceType": 0,
+  "fNIRSSelectedDistance": 0,
+  "fNIRSPPFMethod": 0,
+  "fNIRSAge": 0.0,
+  "fNIRSPPFRed": 0.0,
+  "fNIRSPPFIR": 0.0,
+  "fNIRSSignalIsVisible": true,
+  "fNIRSGroup": 1,
+  "fNIRSSignalVisibilityDic": {
+    "$id": "6",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib"
+  },
+  "fNIRSMinValue": -100,
+  "fNIRSMaxValue": 100,
+  "CamIdCollection": {
+    "$type": "System.String[], mscorlib",
+    "$values": [
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "GridLayoutInfo": {
+    "$id": "7",
+    "$type": "ErgoLAB.UI.GridLayoutInfoModel, ErgoLAB.UI",
+    "SideBySideColumn1": 1.0,
+    "SideBySideColumn2": 1.0,
+    "OneSplitTwoColumn1": 6.0,
+    "OneSplitTwoColumn2": 4.0,
+    "OneSplitTwoRow1": 1.0,
+    "OneSplitTwoRow2": 1.0,
+    "OneSplitThreeColumn1": 7.0,
+    "OneSplitThreeColumn2": 3.0,
+    "OneSplitThreeRow1": 1.0,
+    "OneSplitThreeRow2": 1.0,
+    "OneSplitThreeRow3": 1.0,
+    "UniformSplitColumn1": 1.0,
+    "UniformSplitColumn2": 1.0,
+    "UniformSplitRow1": 1.0,
+    "UniformSplitRow2": 1.0
+  },
+  "GridLayout": 0,
+  "CameraAudioDeviceIndex": -1,
+  "CameraFrameSize": "0,0",
+  "CameraScreenRegion": "0, 0, 0, 0",
+  "VHubProtocolType": 0,
+  "VHubDicIdToDescriptions": {
+    "$id": "8",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+  },
+  "VHubDicIdToVisibility": {
+    "$id": "9",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib"
+  },
+  "KSensModelArray": {
+    "$type": "ErgoLAB.Record.Models.KSensModel[], ErgoLAB",
+    "$values": [
+      {
+        "$id": "10",
+        "$type": "ErgoLAB.Record.Models.KSensModel, ErgoLAB",
+        "Address": "COM6",
+        "SensorCollection": {
+          "$type": "Stylet.BindableCollection`1[[ErgoLAB.Record.Models.KSensSensorModel, ErgoLAB]], Stylet",
+          "$values": [
+            {
+              "$id": "11",
+              "$type": "ErgoLAB.Record.Models.KSensSensorModel, ErgoLAB",
+              "Id": 1,
+              "SensorSignalTypeArray": {
+                "$type": "ErgoLAB.IO.KSens.SignalType[], ErgoLAB.IO.KSens",
+                "$values": [
+                  12,
+                  22,
+                  20,
+                  2,
+                  3,
+                  4,
+                  25,
+                  26
+                ]
+              }
+            },
+            {
+              "$id": "12",
+              "$type": "ErgoLAB.Record.Models.KSensSensorModel, ErgoLAB",
+              "Id": 8,
+              "SensorSignalTypeArray": {
+                "$type": "ErgoLAB.IO.KSens.SignalType[], ErgoLAB.IO.KSens",
+                "$values": [
+                  24,
+                  21,
+                  20,
+                  2,
+                  3,
+                  4,
+                  25
+                ]
+              }
+            }
+          ]
+        },
+        "SignalVisibilityDic": {
+          "$id": "13",
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib",
+          "401012": true,
+          "401022": true,
+          "401020": true,
+          "401002": true,
+          "401003": true,
+          "401004": true,
+          "401025": true,
+          "401026": true,
+          "410023": true,
+          "408024": true,
+          "408021": true,
+          "408020": true,
+          "408002": true,
+          "408003": true,
+          "408004": true,
+          "408025": true,
+          "409002": true,
+          "409020": true,
+          "409003": true,
+          "409004": true,
+          "409025": true
+        },
+        "SensorDescriptionDic": {
+          "$id": "14",
+          "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.String, mscorlib]], mscorlib",
+          "1": null,
+          "10": null,
+          "8": null,
+          "9": null
+        }
+      }
+    ]
+  },
+  "ChartXAxesRangeMaximum": 10,
+  "BiosensorProtocolType": 1,
+  "SensorDicIdToDescriptions": {
+    "$id": "15",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.String, mscorlib]], mscorlib"
+  },
+  "SyncboxIsExpanded": false,
+  "APITriggerIsExpanded": false,
+  "APIStreamIsExpanded": false,
+  "SpeechRecognitionIsExpanded": false,
+  "Version": "3.16.13",
+  "ThemeColor": "#FF1B7ACE",
+  "Type": 4,
+  "ActiveItemIndex": 0,
+  "Title": "同步采集"
+}

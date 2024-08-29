@@ -1,0 +1,644 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.Biometrics.Views.BiometricsStatisticsViewInfoModel, ErgoLAB",
+  "StatisticParamDict": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib",
+    "一般时域": false,
+    "一般频域": false,
+    "EMG时域": false,
+    "EMG频域": false,
+    "EDA时域": true,
+    "EDA相关事件": true,
+    "HRV时域": false,
+    "HRV频域": false,
+    "HRV非线性": false,
+    "RESP时域": false,
+    "RESP频域": false,
+    "EEG时域": false,
+    "EEG频域": false
+  },
+  "DataSelectionViewInfoModel": {
+    "$id": "3",
+    "$type": "ErgoLAB.Project.Controls.DataSelectionViewInfoModel, ErgoLAB",
+    "VariableSelectionDict": {
+      "$id": "4",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib",
+      "All Subject Variables": {
+        "$id": "5",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": true,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548451a9dd653552c51f004": {
+        "$id": "6",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654845139dd653552c51f002": {
+        "$id": "7",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654845169dd653552c51f003": {
+        "$id": "8",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548451a9dd653552c51f004未指定": {
+        "$id": "9",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548454f9dd653552c51f011": {
+        "$id": "10",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654845339dd653552c51f007": {
+        "$id": "11",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654845369dd653552c51f008": {
+        "$id": "12",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654845399dd653552c51f009": {
+        "$id": "13",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548453c9dd653552c51f00a": {
+        "$id": "14",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548453f9dd653552c51f00b": {
+        "$id": "15",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654845429dd653552c51f00c": {
+        "$id": "16",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654845459dd653552c51f00d": {
+        "$id": "17",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654845479dd653552c51f00e": {
+        "$id": "18",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548454a9dd653552c51f00f": {
+        "$id": "19",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548454c9dd653552c51f010": {
+        "$id": "20",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548454f9dd653552c51f011未指定": {
+        "$id": "21",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      }
+    },
+    "RecordingSelectionDict": {
+      "$id": "22",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib",
+      "All Recordings": {
+        "$id": "23",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": true,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654d9186abcde30258fc5a15": {
+        "$id": "24",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6551d686abcde3274ca159b3": {
+        "$id": "25",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "65547232abcde332f04eaf07": {
+        "$id": "26",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6555bd16abcde33348774e81": {
+        "$id": "27",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "65571e7babcde3147888399e": {
+        "$id": "28",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "655ace9cabcde33408254bb6": {
+        "$id": "29",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "655da4c5abcde316dc4bcc4d": {
+        "$id": "30",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "655eb20babcde3014001fc10": {
+        "$id": "31",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "656051c2abcde319a025b598": {
+        "$id": "32",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "65619e6dabcde31998c3496b": {
+        "$id": "33",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      }
+    },
+    "SegmentTypeSelectionDict": {
+      "$id": "34",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib",
+      "All SegmentTypes": {
+        "$id": "35",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": true,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6549f7fbabcde317b0fc4294": {
+        "$id": "36",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "Custom Segment": {
+        "$id": "37",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsExpanded": true,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "65484d879dd65311d482f158": {
+        "$id": "38",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "65484d8d9dd65311d482f159": {
+        "$id": "39",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": true,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654c9f519dd65376c41f71e4": {
+        "$id": "40",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654c9f5a9dd65376c41f71e5": {
+        "$id": "41",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eec249dd6539d787b4a1e": {
+        "$id": "42",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eed279dd6539d787b4a20": {
+        "$id": "43",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eed539dd6539d787b4a22": {
+        "$id": "44",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eed8f9dd6539d787b4a24": {
+        "$id": "45",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eedb99dd6539d787b4a26": {
+        "$id": "46",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eedf79dd6539d787b4a28": {
+        "$id": "47",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eee3a9dd6539d787b4a2a": {
+        "$id": "48",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eee829dd6539d787b4a2c": {
+        "$id": "49",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eeebf9dd6539d787b4a2e": {
+        "$id": "50",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eef059dd6539d787b4a30": {
+        "$id": "51",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eef339dd6539d787b4a32": {
+        "$id": "52",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eef609dd6539d787b4a34": {
+        "$id": "53",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eef8d9dd6539d787b4a36": {
+        "$id": "54",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654eefbc9dd6539d787b4a38": {
+        "$id": "55",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6565889e9dd65352d894ba4e": {
+        "$id": "56",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "Webpage Segment": {
+        "$id": "57",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "Image Segment": {
+        "$id": "58",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548459f9dd653552c51f051": {
+        "$id": "59",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "654845fb9dd653552c51f061": {
+        "$id": "60",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548466b9dd653552c51f067": {
+        "$id": "61",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "6548469c9dd653552c51f06c": {
+        "$id": "62",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "65484c589dd65311d482f13f": {
+        "$id": "63",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "65484caf9dd65311d482f146": {
+        "$id": "64",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "65484d2e9dd65311d482f14b": {
+        "$id": "65",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "Video Segment": {
+        "$id": "66",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      },
+      "Mapping Image Segment": {
+        "$id": "67",
+        "$type": "ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB",
+        "IsChecked": false,
+        "IsExpanded": false,
+        "Children": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ErgoLAB.AppFoundation.Models.OptionConfigStruct, ErgoLAB]], mscorlib"
+        }
+      }
+    },
+    "SearchSourceDict": {
+      "$id": "68",
+      "$type": "System.Collections.Generic.Dictionary`2[[ErgoLAB.Project.Controls.SearchType, ErgoLAB],[System.String[], mscorlib]], mscorlib",
+      "Recording": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "SubjectVariable": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "SegmentType": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "Questionnaire": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "Behavior": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "AOIGroup": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "AOIShape": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "SOIGroup": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "SOIShape": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      }
+    },
+    "RelativeTimeIsChecked": true,
+    "CurrentRelativeTime": 0,
+    "AbsouluteTimeIsChecked": false,
+    "RecordingIsExpanded": true,
+    "ContinuousIsExpended": true,
+    "AOIIsExpanded": true,
+    "SOIIsExpanded": true,
+    "SubjectVariableIsExpanded": true,
+    "BehaviorGroupIsExpanded": true,
+    "SegmentTypeIsExpanded": true,
+    "AOIGroupIsExpanded": true,
+    "SOIGroupIsExpanded": true,
+    "QuestionnaireIsExpanded": true,
+    "ExpanderOffset": "0,478"
+  },
+  "ListViewOffset": "0,0",
+  "Type": 19,
+  "ActiveItemIndex": 0,
+  "Title": "数据统计",
+  "IconImageUri": "/ErgoLAB;component/Resources/statistic32.png"
+}

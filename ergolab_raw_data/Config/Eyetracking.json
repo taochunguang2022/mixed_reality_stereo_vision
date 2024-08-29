@@ -1,0 +1,33 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.AppFoundation.Models.FeatureViewInfoModel, ErgoLAB",
+  "Version": "3.16.13",
+  "ThemeColor": "#FF007989",
+  "Type": 8,
+  "ActiveItemIndex": 0,
+  "Title": "眼动分析",
+  "SubViewInfoModels": {
+    "$type": "Stylet.BindableCollection`1[[ErgoLAB.AppFoundation.Models.ViewInfoModelBase, ErgoLAB]], Stylet",
+    "$values": [
+      {
+        "$id": "2",
+        "$type": "ErgoLAB.Eyetracking.Views.EyetrackingOverviewViewInfoModel, ErgoLAB",
+        "SelectedIndex": 0,
+        "GDPIsExpanded": true,
+        "FCIsExpanded": true,
+        "PPPIsExpanded": true,
+        "EPPIsExpanded": true,
+        "StyleParametersIsExpanded": true,
+        "SearchBoxIsExpanded": false,
+        "RecordingGridOffset": "0,0",
+        "Type": 26,
+        "ActiveItemIndex": 0,
+        "Title": "概述",
+        "IconImageUri": "/ErgoLAB;component/Resources/View_Details-32.png",
+        "Parent": {
+          "$ref": "1"
+        }
+      }
+    ]
+  }
+}

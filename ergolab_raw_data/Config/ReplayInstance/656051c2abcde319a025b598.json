@@ -1,0 +1,555 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.Replay.Views.ReplayInstanceViewInfoModel, ErgoLAB",
+  "EEGCustomBandStart": 1,
+  "EEGCustomBandEnd": 49,
+  "EEGMinPower": -10,
+  "EEGMaxPower": 30,
+  "FSRMinValue": 0,
+  "FSRMaxValue": 5,
+  "fNIRSMinValue": -100,
+  "fNIRSMaxValue": 100,
+  "EventTypeOptionDict": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib",
+    "654845609dd653552c51f01e": true,
+    "6548456c9dd653552c51f01f": true,
+    "654845759dd653552c51f020": true,
+    "6548457e9dd653552c51f021": true,
+    "654c9e7e9dd65376c41f71a6": true,
+    "654c9e8b9dd65376c41f71a7": true
+  },
+  "SensorOptionDict": {
+    "$id": "3",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib",
+    "6560607babcde319a025b63c": true,
+    "6560607babcde319a025b63d": true,
+    "6560607cabcde319a025b63e": true,
+    "6560607cabcde319a025b63f": true,
+    "6560607cabcde319a025b640": true,
+    "6560607cabcde319a025b641": true,
+    "6560607cabcde319a025b642": true,
+    "6560607cabcde319a025b643": true,
+    "6560607cabcde319a025b644": true,
+    "6560607cabcde319a025b645": true,
+    "6560607cabcde319a025b646": true,
+    "6560607cabcde319a025b647": true,
+    "6560607cabcde319a025b648": true,
+    "6560607cabcde319a025b649": true,
+    "6560607cabcde319a025b64a": true,
+    "6560607cabcde319a025b64b": true,
+    "6560607cabcde319a025b64c": true,
+    "6560607cabcde319a025b64d": true,
+    "6560607cabcde319a025b64e": true,
+    "6560607cabcde319a025b64f": true,
+    "6560607cabcde319a025b650": true,
+    "6560607cabcde319a025b651": true,
+    "6560607cabcde319a025b652": true,
+    "6560607cabcde319a025b653": true,
+    "6560607cabcde319a025b654": true,
+    "6560607cabcde319a025b655": true,
+    "6560607cabcde319a025b656": true,
+    "6560607cabcde319a025b657": true,
+    "6560607cabcde319a025b658": true,
+    "6560607cabcde319a025b659": true,
+    "6560607cabcde319a025b65a": true,
+    "6560607cabcde319a025b65b": true,
+    "6560607cabcde319a025b65c": true,
+    "6560607cabcde319a025b65d": true,
+    "6560607cabcde319a025b65e": true,
+    "6560607cabcde319a025b65f": true,
+    "6560607cabcde319a025b660": true,
+    "6560607cabcde319a025b661": true,
+    "6560607cabcde319a025b662": true
+  },
+  "CodingOptionDict": {
+    "$id": "4",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib"
+  },
+  "SegmentGroupTypeOptionDict": {
+    "$id": "5",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib",
+    "Custom": true,
+    "Image": true,
+    "Video": true,
+    "Webpage": true,
+    "MappingImage": true
+  },
+  "SegmentTypeIdList": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "65484d879dd65311d482f158",
+      "65484d8d9dd65311d482f159",
+      "654c9f519dd65376c41f71e4",
+      "654c9f5a9dd65376c41f71e5",
+      "654eec249dd6539d787b4a1e",
+      "654eed279dd6539d787b4a20",
+      "654eed539dd6539d787b4a22",
+      "654eed8f9dd6539d787b4a24",
+      "654eedb99dd6539d787b4a26",
+      "654eedf79dd6539d787b4a28",
+      "654eee3a9dd6539d787b4a2a",
+      "654eee829dd6539d787b4a2c",
+      "654eeebf9dd6539d787b4a2e",
+      "654eef059dd6539d787b4a30",
+      "654eef339dd6539d787b4a32",
+      "654eef609dd6539d787b4a34",
+      "654eef8d9dd6539d787b4a36",
+      "654eefbc9dd6539d787b4a38",
+      "6549f7fbabcde317b0fc4294",
+      "6548459f9dd653552c51f051",
+      "654845fb9dd653552c51f061",
+      "6548466b9dd653552c51f067",
+      "6548469c9dd653552c51f06c",
+      "65484c589dd65311d482f13f",
+      "65484caf9dd65311d482f146",
+      "65484d2e9dd65311d482f14b"
+    ]
+  },
+  "CurrentSegmentTypeModelId": "6549f7fbabcde317b0fc4294",
+  "RecInformationViewInfoModel": {
+    "$id": "6",
+    "$type": "ErgoLAB.Replay.Controls.RecInformationViewInfoModel, ErgoLAB",
+    "IsSensorExpanded": true,
+    "IsCodingDataExpanded": true,
+    "IsEEGExpanded": true,
+    "IsVideoExpanded": true,
+    "IsGazeExpanded": true,
+    "IsMotionExpanded": true,
+    "IsVehicleExpanded": true,
+    "IsIndoorPositioningExpanded": true,
+    "IsStimuliExpanded": true,
+    "IsFSRExpanded": true,
+    "IsfNIRSExpanded": true,
+    "RecInformationOffset": "0,0"
+  },
+  "IsSegmentTypeExpanded": true,
+  "IsEventsExpanded": true,
+  "IsSegmentsExpanded": true,
+  "IsCustomEventExpanded": true,
+  "SegmentTypeSelectionViewInfoModel": {
+    "$id": "7",
+    "$type": "ErgoLAB.Project.Controls.SegmentTypeSelectionViewInfoModel, ErgoLAB",
+    "SegmentsIsExpanded": true,
+    "SegmentTypeListViewOffset": "0,0",
+    "LocalSegmentTypeListViewOffset": "0,0",
+    "SegmentTypeSearchSources": {
+      "$type": "System.String[], mscorlib",
+      "$values": []
+    },
+    "LastSelectedSegmentTypeModel": {
+      "$id": "8",
+      "$type": "ErgoLAB.Project.Models.SegmentTypeModel, ErgoLAB",
+      "GroupType": 5,
+      "Name": "完整记录",
+      "Stimuli": {
+        "$id": "9",
+        "$type": "ErgoLAB.Design.Models.StimuliModel, ErgoLAB",
+        "Background": "#FFFFFFFF",
+        "SelectedDock": 4,
+        "SelectedScaling": 0,
+        "MediaType": 0,
+        "Time": 1.0,
+        "SyncBoxMarkerValue": 0,
+        "IsTime": false,
+        "IsUseCustomSwitchType": true,
+        "IsWirelessController": false,
+        "ItemWidth": 0,
+        "ItemHeight": 0,
+        "RecordItemWidth": 0,
+        "RecordItemHeight": 0,
+        "IsShowMouseCursor": true,
+        "IsRecordSound": true,
+        "IsRecordMouse": true,
+        "AbsoluteFilePath": "",
+        "AbsoluteThumbnailPath": "",
+        "Is3DFile": false,
+        "FileSize": "1920,1080",
+        "VideoDuration": 0.0,
+        "HasRecording": false,
+        "IsCopy": false,
+        "AbsoluteAudioPath": "",
+        "AudioDuration": 0.0,
+        "HasAudio": false,
+        "IsCut": false,
+        "IsDoubleTap": true,
+        "AbsoluteTopFilePath": "",
+        "AbsoluteTopThumbnailPath": "",
+        "AbsoluteBottomFilePath": "",
+        "AbsoluteBottomThumbnailPath": "",
+        "IsGenerateSegment": true,
+        "IsGenerateStartEvent": true,
+        "IsGenerateEndEvent": true,
+        "Stimulis": {
+          "$type": "Stylet.BindableCollection`1[[ErgoLAB.Design.Models.StimuliModel, ErgoLAB]], Stylet",
+          "$values": []
+        },
+        "GroupOrderType": 0,
+        "IsUserEditSize": false,
+        "Size": 0,
+        "Repetition": 1,
+        "RankType": 0,
+        "AbsoluteRecFilePath": ""
+      },
+      "StimuliSize": "1920,1080",
+      "AllowIntervalEvent": false,
+      "Id": "6549f7fbabcde317b0fc4294"
+    },
+    "Type": 0,
+    "ActiveItemIndex": 0
+  },
+  "EventSearchValues": {
+    "$type": "System.String[], mscorlib",
+    "$values": []
+  },
+  "SelectedIndex": 2,
+  "StimuliVolume": 0.5,
+  "SelectedGazeSourceIndex": 0,
+  "VideoVolume": 0.5,
+  "SelectedVideoIndex": 0,
+  "VideoGridLayout": 0,
+  "DockLayoutStream": {
+    "$type": "System.Byte[], mscorlib",
+    "$value": "77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxMYXlvdXRSb290Pg0KICA8Um9vdFBhbmVsIE9yaWVudGF0aW9uPSJWZXJ0aWNhbCI+DQogICAgPExheW91dEFuY2hvcmFibGVQYW5lR3JvdXAgT3JpZW50YXRpb249Ikhvcml6b250YWwiPg0KICAgICAgPExheW91dEFuY2hvcmFibGVQYW5lIElkPSI5ZGEwMzE2Yi02ZDc0LTQzMWItOGU5Ni05ODhjZDAwYWEwMDAiIE5hbWU9IlZpZGVvUGFuZSIgLz4NCiAgICAgIDxMYXlvdXRBbmNob3JhYmxlUGFuZSBOYW1lPSJTdGltdWxpUGFuZSI+DQogICAgICAgIDxMYXlvdXRBbmNob3JhYmxlIENhbkhpZGU9IkZhbHNlIiBDYW5BdXRvSGlkZT0iRmFsc2UiIEF1dG9IaWRlTWluV2lkdGg9IjEwMCIgQXV0b0hpZGVNaW5IZWlnaHQ9IjEwMCIgVGl0bGU9IuWIuua/gCIgSXNTZWxlY3RlZD0iVHJ1ZSIgQ29udGVudElkPSIxIiBDYW5DbG9zZT0iRmFsc2UiIC8+DQogICAgICA8L0xheW91dEFuY2hvcmFibGVQYW5lPg0KICAgICAgPExheW91dEFuY2hvcmFibGVQYW5lIElkPSI2MGY1NzBmNi1kZWEwLTQxMDAtODgxYS1lZmE5YmU5MDg4YzMiIE5hbWU9Ik1vdGlvblBhbmUiIC8+DQogICAgICA8TGF5b3V0QW5jaG9yYWJsZVBhbmUgSWQ9IjgyNzViOThmLWVmYTYtNDZhMy1hMzhlLTU5YWNjZDhjNGVhOSIgTmFtZT0iVmVoaWNsZVBhbmUiIC8+DQogICAgICA8TGF5b3V0QW5jaG9yYWJsZVBhbmUgSWQ9ImMyYTM0ZDI2LTMxMDAtNDhlOC1hYWZmLWVkYTIxZDJjOTQ0ZiIgTmFtZT0iRUVHUGFuZSIgLz4NCiAgICAgIDxMYXlvdXRBbmNob3JhYmxlUGFuZSBJZD0iODAxODI5ZTQtZDFkMC00MGY2LWEzMWQtYTg2YzRkMTFjNjliIiBOYW1lPSJGU1JQYW5lIiAvPg0KICAgIDwvTGF5b3V0QW5jaG9yYWJsZVBhbmVHcm91cD4NCiAgICA8TGF5b3V0QW5jaG9yYWJsZVBhbmUgTmFtZT0iQ2hhcnRQYW5lIj4NCiAgICAgIDxMYXlvdXRBbmNob3JhYmxlIENhbkhpZGU9IkZhbHNlIiBDYW5BdXRvSGlkZT0iRmFsc2UiIEF1dG9IaWRlTWluV2lkdGg9IjEwMCIgQXV0b0hpZGVNaW5IZWlnaHQ9IjEwMCIgVGl0bGU9IuWbvuihqCIgSXNTZWxlY3RlZD0iVHJ1ZSIgQ29udGVudElkPSI2IiBDYW5DbG9zZT0iRmFsc2UiIC8+DQogICAgPC9MYXlvdXRBbmNob3JhYmxlUGFuZT4NCiAgPC9Sb290UGFuZWw+DQogIDxUb3BTaWRlIC8+DQogIDxSaWdodFNpZGUgLz4NCiAgPExlZnRTaWRlIC8+DQogIDxCb3R0b21TaWRlIC8+DQogIDxGbG9hdGluZ1dpbmRvd3MgLz4NCiAgPEhpZGRlbj4NCiAgICA8TGF5b3V0QW5jaG9yYWJsZSBDYW5IaWRlPSJGYWxzZSIgQ2FuQXV0b0hpZGU9IkZhbHNlIiBBdXRvSGlkZU1pbldpZHRoPSIxMDAiIEF1dG9IaWRlTWluSGVpZ2h0PSIxMDAiIFRpdGxlPSLlnLDlvaIiIENvbnRlbnRJZD0iNCIgQ2FuQ2xvc2U9IkZhbHNlIiBQcmV2aW91c0NvbnRhaW5lcklkPSJjMmEzNGQyNi0zMTAwLTQ4ZTgtYWFmZi1lZGEyMWQyYzk0NGYiIFByZXZpb3VzQ29udGFpbmVySW5kZXg9IjAiIC8+DQogICAgPExheW91dEFuY2hvcmFibGUgQ2FuSGlkZT0iRmFsc2UiIENhbkF1dG9IaWRlPSJGYWxzZSIgQXV0b0hpZGVNaW5XaWR0aD0iMTAwIiBBdXRvSGlkZU1pbkhlaWdodD0iMTAwIiBDb250ZW50SWQ9IjAiIENhbkNsb3NlPSJGYWxzZSIgUHJldmlvdXNDb250YWluZXJJZD0iOWRhMDMxNmItNmQ3NC00MzFiLThlOTYtOTg4Y2QwMGFhMDAwIiBQcmV2aW91c0NvbnRhaW5lckluZGV4PSIwIiAvPg0KICAgIDxMYXlvdXRBbmNob3JhYmxlIENhbkhpZGU9IkZhbHNlIiBDYW5BdXRvSGlkZT0iRmFsc2UiIEF1dG9IaWRlTWluV2lkdGg9IjEwMCIgQXV0b0hpZGVNaW5IZWlnaHQ9IjEwMCIgQ29udGVudElkPSIyIiBDYW5DbG9zZT0iRmFsc2UiIFByZXZpb3VzQ29udGFpbmVySWQ9IjYwZjU3MGY2LWRlYTAtNDEwMC04ODFhLWVmYTliZTkwODhjMyIgUHJldmlvdXNDb250YWluZXJJbmRleD0iMCIgLz4NCiAgICA8TGF5b3V0QW5jaG9yYWJsZSBDYW5IaWRlPSJGYWxzZSIgQ2FuQXV0b0hpZGU9IkZhbHNlIiBBdXRvSGlkZU1pbldpZHRoPSIxMDAiIEF1dG9IaWRlTWluSGVpZ2h0PSIxMDAiIENvbnRlbnRJZD0iMyIgQ2FuQ2xvc2U9IkZhbHNlIiBQcmV2aW91c0NvbnRhaW5lcklkPSI4Mjc1Yjk4Zi1lZmE2LTQ2YTMtYTM4ZS01OWFjY2Q4YzRlYTkiIFByZXZpb3VzQ29udGFpbmVySW5kZXg9IjAiIC8+DQogICAgPExheW91dEFuY2hvcmFibGUgQ2FuSGlkZT0iRmFsc2UiIENhbkF1dG9IaWRlPSJGYWxzZSIgQXV0b0hpZGVNaW5XaWR0aD0iMTAwIiBBdXRvSGlkZU1pbkhlaWdodD0iMTAwIiBDb250ZW50SWQ9IjUiIENhbkNsb3NlPSJGYWxzZSIgUHJldmlvdXNDb250YWluZXJJZD0iODAxODI5ZTQtZDFkMC00MGY2LWEzMWQtYTg2YzRkMTFjNjliIiBQcmV2aW91c0NvbnRhaW5lckluZGV4PSIwIiAvPg0KICA8L0hpZGRlbj4NCjwvTGF5b3V0Um9vdD4="
+  },
+  "ReplayStateModel": {
+    "$id": "10",
+    "$type": "ErgoLAB.Replay.Models.ReplayStateModel, ErgoLAB",
+    "CurrentTime": "00:00:00",
+    "Duration": "01:02:46.9680000",
+    "SelectionRange": {
+      "$id": "11",
+      "$type": "System.ValueTuple`2[[System.TimeSpan, mscorlib],[System.TimeSpan, mscorlib]], mscorlib",
+      "Item1": "00:00:00",
+      "Item2": "00:00:00"
+    },
+    "ZoomRange": {
+      "$id": "12",
+      "$type": "System.ValueTuple`2[[System.TimeSpan, mscorlib],[System.TimeSpan, mscorlib]], mscorlib",
+      "Item1": "00:00:00",
+      "Item2": "01:02:46.9680000"
+    },
+    "SpeedRatio": 1.0,
+    "IsLoop": false,
+    "TimeOffsetMs": 100
+  },
+  "MotionIsPositionMode": false,
+  "MotionCameraInfoModel": {
+    "$id": "13",
+    "$type": "ErgoLAB.Replay.Models.MotionCameraInfoModel, ErgoLAB",
+    "FieldOfView": 0.0,
+    "LookDirection": "0,0,0",
+    "Position": "0,0,0",
+    "UpDirection": "0,0,0"
+  },
+  "YAxesRanges": {
+    "$id": "14",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib]], mscorlib",
+    "6560607babcde319a025b63c": {
+      "$id": "15",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -100.0,
+      "Item2": 100.0
+    },
+    "6560607babcde319a025b63d": {
+      "$id": "16",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -3000.0,
+      "Item2": 3000.0
+    },
+    "6560607cabcde319a025b63e": {
+      "$id": "17",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -100.0,
+      "Item2": 100.0
+    },
+    "6560607cabcde319a025b63f": {
+      "$id": "18",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 15.0,
+      "Item2": 40.0
+    },
+    "6560607cabcde319a025b640": {
+      "$id": "19",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -8.0,
+      "Item2": 8.0
+    },
+    "6560607cabcde319a025b641": {
+      "$id": "20",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -8.0,
+      "Item2": 8.0
+    },
+    "6560607cabcde319a025b642": {
+      "$id": "21",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -8.0,
+      "Item2": 8.0
+    },
+    "6560607cabcde319a025b643": {
+      "$id": "22",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -2000.0,
+      "Item2": 2000.0
+    },
+    "6560607cabcde319a025b644": {
+      "$id": "23",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -2000.0,
+      "Item2": 2000.0
+    },
+    "6560607cabcde319a025b645": {
+      "$id": "24",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -2000.0,
+      "Item2": 2000.0
+    },
+    "6560607cabcde319a025b646": {
+      "$id": "25",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -4800.0,
+      "Item2": 4800.0
+    },
+    "6560607cabcde319a025b647": {
+      "$id": "26",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -4800.0,
+      "Item2": 4800.0
+    },
+    "6560607cabcde319a025b648": {
+      "$id": "27",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -4800.0,
+      "Item2": 4800.0
+    },
+    "6560607cabcde319a025b649": {
+      "$id": "28",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 0.0,
+      "Item2": 140.0
+    },
+    "6560607cabcde319a025b64a": {
+      "$id": "29",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 0.0,
+      "Item2": 30.0
+    },
+    "6560607cabcde319a025b64b": {
+      "$id": "30",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 90.0,
+      "Item2": 100.0
+    },
+    "6560607cabcde319a025b64c": {
+      "$id": "31",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 0.0,
+      "Item2": 30.0
+    },
+    "6560607cabcde319a025b64d": {
+      "$id": "32",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 15.0,
+      "Item2": 40.0
+    },
+    "6560607cabcde319a025b64e": {
+      "$id": "33",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -8.0,
+      "Item2": 8.0
+    },
+    "6560607cabcde319a025b64f": {
+      "$id": "34",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -8.0,
+      "Item2": 8.0
+    },
+    "6560607cabcde319a025b650": {
+      "$id": "35",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -8.0,
+      "Item2": 8.0
+    },
+    "6560607cabcde319a025b651": {
+      "$id": "36",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -2000.0,
+      "Item2": 2000.0
+    },
+    "6560607cabcde319a025b652": {
+      "$id": "37",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -2000.0,
+      "Item2": 2000.0
+    },
+    "6560607cabcde319a025b653": {
+      "$id": "38",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -2000.0,
+      "Item2": 2000.0
+    },
+    "6560607cabcde319a025b654": {
+      "$id": "39",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -4800.0,
+      "Item2": 4800.0
+    },
+    "6560607cabcde319a025b655": {
+      "$id": "40",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -4800.0,
+      "Item2": 4800.0
+    },
+    "6560607cabcde319a025b656": {
+      "$id": "41",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -4800.0,
+      "Item2": 4800.0
+    },
+    "6560607cabcde319a025b657": {
+      "$id": "42",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 0.0,
+      "Item2": 140.0
+    },
+    "6560607cabcde319a025b658": {
+      "$id": "43",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -8.0,
+      "Item2": 8.0
+    },
+    "6560607cabcde319a025b659": {
+      "$id": "44",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -8.0,
+      "Item2": 8.0
+    },
+    "6560607cabcde319a025b65a": {
+      "$id": "45",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -8.0,
+      "Item2": 8.0
+    },
+    "6560607cabcde319a025b65b": {
+      "$id": "46",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 15.0,
+      "Item2": 40.0
+    },
+    "6560607cabcde319a025b65c": {
+      "$id": "47",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -2000.0,
+      "Item2": 2000.0
+    },
+    "6560607cabcde319a025b65d": {
+      "$id": "48",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -2000.0,
+      "Item2": 2000.0
+    },
+    "6560607cabcde319a025b65e": {
+      "$id": "49",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -2000.0,
+      "Item2": 2000.0
+    },
+    "6560607cabcde319a025b65f": {
+      "$id": "50",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -4800.0,
+      "Item2": 4800.0
+    },
+    "6560607cabcde319a025b660": {
+      "$id": "51",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -4800.0,
+      "Item2": 4800.0
+    },
+    "6560607cabcde319a025b661": {
+      "$id": "52",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": -4800.0,
+      "Item2": 4800.0
+    },
+    "6560607cabcde319a025b662": {
+      "$id": "53",
+      "$type": "System.ValueTuple`2[[System.Double, mscorlib],[System.Double, mscorlib]], mscorlib",
+      "Item1": 0.0,
+      "Item2": 140.0
+    }
+  },
+  "MapCenter": "0,0",
+  "MapZoom": 0.0,
+  "RecordingEventTypeCollection": {
+    "$type": "Stylet.BindableCollection`1[[ErgoLAB.Project.Models.RecordingTypeModel, ErgoLAB]], Stylet",
+    "$values": [
+      {
+        "$id": "54",
+        "$type": "ErgoLAB.Project.Models.RecordingTypeModel, ErgoLAB",
+        "Name": "刺激类型",
+        "IsChecked": true,
+        "Width": 110.0,
+        "EventGroupType": 4,
+        "SegmentGroupType": 0,
+        "BehaviorGroupType": 0
+      },
+      {
+        "$id": "55",
+        "$type": "ErgoLAB.Project.Models.RecordingTypeModel, ErgoLAB",
+        "Name": "自定义类型",
+        "IsChecked": true,
+        "Width": 110.0,
+        "EventGroupType": 5,
+        "SegmentGroupType": 0,
+        "BehaviorGroupType": 0
+      },
+      {
+        "$id": "56",
+        "$type": "ErgoLAB.Project.Models.RecordingTypeModel, ErgoLAB",
+        "Name": "SyncBOX类型",
+        "IsChecked": false,
+        "Width": 110.0,
+        "EventGroupType": 3,
+        "SegmentGroupType": 0,
+        "BehaviorGroupType": 0
+      },
+      {
+        "$id": "57",
+        "$type": "ErgoLAB.Project.Models.RecordingTypeModel, ErgoLAB",
+        "Name": "键盘类型",
+        "IsChecked": false,
+        "Width": 110.0,
+        "EventGroupType": 1,
+        "SegmentGroupType": 0,
+        "BehaviorGroupType": 0
+      },
+      {
+        "$id": "58",
+        "$type": "ErgoLAB.Project.Models.RecordingTypeModel, ErgoLAB",
+        "Name": "鼠标类型",
+        "IsChecked": false,
+        "Width": 110.0,
+        "EventGroupType": 2,
+        "SegmentGroupType": 0,
+        "BehaviorGroupType": 0
+      },
+      {
+        "$id": "59",
+        "$type": "ErgoLAB.Project.Models.RecordingTypeModel, ErgoLAB",
+        "Name": "控制器类型",
+        "IsChecked": false,
+        "Width": 110.0,
+        "EventGroupType": 6,
+        "SegmentGroupType": 0,
+        "BehaviorGroupType": 0
+      }
+    ]
+  },
+  "RecId": "656051c2abcde319a025b598",
+  "Type": 12,
+  "ActiveItemIndex": 0,
+  "Title": "正式实验9",
+  "IconImageUri": "/ErgoLAB;component/Resources/replay20.png"
+}

@@ -1,0 +1,1898 @@
+{
+  "$type": "System.Collections.Generic.List`1[[ErgoLAB.Record.Models.RecordModelBase, ErgoLAB]], mscorlib",
+  "$values": [
+    {
+      "$id": "1",
+      "$type": "ErgoLAB.Record.Models.BiosensorRecordModel, ErgoLAB",
+      "KSensCollection": {
+        "$type": "Stylet.BindableCollection`1[[ErgoLAB.Record.Models.KSensModel, ErgoLAB]], Stylet",
+        "$values": [
+          {
+            "$id": "2",
+            "$type": "ErgoLAB.Record.Models.KSensModel, ErgoLAB",
+            "Address": "COM6",
+            "SensorCollection": {
+              "$type": "Stylet.BindableCollection`1[[ErgoLAB.Record.Models.KSensSensorModel, ErgoLAB]], Stylet",
+              "$values": [
+                {
+                  "$id": "3",
+                  "$type": "ErgoLAB.Record.Models.KSensSensorModel, ErgoLAB",
+                  "Id": 1,
+                  "SensorSignalTypeArray": {
+                    "$type": "ErgoLAB.IO.KSens.SignalType[], ErgoLAB.IO.KSens",
+                    "$values": [
+                      12,
+                      22,
+                      20,
+                      2,
+                      3,
+                      4,
+                      25,
+                      26
+                    ]
+                  }
+                },
+                {
+                  "$id": "4",
+                  "$type": "ErgoLAB.Record.Models.KSensSensorModel, ErgoLAB",
+                  "Id": 8,
+                  "SensorSignalTypeArray": {
+                    "$type": "ErgoLAB.IO.KSens.SignalType[], ErgoLAB.IO.KSens",
+                    "$values": [
+                      24,
+                      21,
+                      20,
+                      2,
+                      3,
+                      4,
+                      25
+                    ]
+                  }
+                }
+              ]
+            },
+            "SignalVisibilityDic": {
+              "$id": "5",
+              "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib",
+              "401012": true,
+              "401022": true,
+              "401020": true,
+              "401002": true,
+              "401003": true,
+              "401004": true,
+              "401025": true,
+              "401026": true,
+              "410023": true,
+              "408024": true,
+              "408021": true,
+              "408020": true,
+              "408002": true,
+              "408003": true,
+              "408004": true,
+              "408025": true,
+              "409002": true,
+              "409020": true,
+              "409003": true,
+              "409004": true,
+              "409025": true
+            },
+            "SensorDescriptionDic": {
+              "$id": "6",
+              "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[System.String, mscorlib]], mscorlib",
+              "1": null,
+              "10": null,
+              "8": null,
+              "9": null
+            }
+          }
+        ]
+      },
+      "IsWirelessConnected": false,
+      "HasFSRSensor": false,
+      "ReceiverTypeCollection": {
+        "$type": "System.Collections.Generic.List`1[[ErgoLAB.Record.Services.ReceiverType, ErgoLAB]], mscorlib",
+        "$values": []
+      },
+      "Device": {
+        "$id": "7",
+        "$type": "ErgoLAB.Record.Models.DeviceModel, ErgoLAB",
+        "Type": 0
+      },
+      "APIProtocolType": 0,
+      "APIStreamArray": {
+        "$type": "ErgoLAB.Record.Models.APIStreamModel[], ErgoLAB",
+        "$values": [
+          {
+            "$id": "8",
+            "$type": "ErgoLAB.Record.Models.APIStreamModel, ErgoLAB",
+            "Name": "BLE_Chest1_TimeSeries",
+            "Type": "Chest1",
+            "Description": "实时Chest1数据。",
+            "IsEnabled": false,
+            "IsStarted": false,
+            "HasSubscribe": false,
+            "Freq": 16.0,
+            "ChannelArray": {
+              "$type": "ErgoLAB.Record.Models.BiosensorChannelModel[], ErgoLAB",
+              "$values": [
+                {
+                  "$id": "9",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "SystemTimeStamp",
+                  "Label": "Timestamp",
+                  "Unit": "μs"
+                },
+                {
+                  "$id": "10",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Validity",
+                  "Label": "Validity",
+                  "Unit": ""
+                },
+                {
+                  "$id": "11",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "12",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "13",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "14",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "15",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "16",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "17",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "18",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "19",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 8,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "20",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 9,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "21",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 10,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "22",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 11,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "23",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 12,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "24",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 13,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "25",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 14,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "26",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 15,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "27",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 16,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "28",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 17,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "29",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 18,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "30",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 19,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "31",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 20,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "32",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 21,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "33",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 22,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "34",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 23,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "35",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 24,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "36",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 25,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "37",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 26,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "38",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 27,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "39",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 28,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "40",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 29,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "41",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 30,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "42",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 31,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ECG",
+                  "Unit": "μV"
+                },
+                {
+                  "$id": "43",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "RESP",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "44",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "RESP",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "45",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "RESP",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "46",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "RESP",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "47",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "48",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "49",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "50",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "51",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "52",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "53",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "54",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "55",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "56",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "57",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "58",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "59",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "60",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "61",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "62",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "63",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "64",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "65",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "66",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "67",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "68",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "69",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "70",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "71",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "72",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "73",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "74",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "75",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "76",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "77",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "78",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "79",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "80",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "81",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "82",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "83",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "84",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "85",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "86",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "87",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "BPM",
+                  "Unit": "bpm"
+                },
+                {
+                  "$id": "88",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Chest",
+                  "Label": "RPM",
+                  "Unit": "rpm"
+                }
+              ]
+            },
+            "SignalArray": {
+              "$type": "ErgoLAB.Record.Models.SignalModelBase[], ErgoLAB",
+              "$values": [
+                {
+                  "$id": "89",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "ECG",
+                  "Freq": 512.0,
+                  "Scale": 10.485440254211426,
+                  "ChannelCount": 1,
+                  "SampleCount": 32
+                },
+                {
+                  "$id": "90",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "RESP",
+                  "Freq": 64.0,
+                  "Scale": 100.0,
+                  "ChannelCount": 1,
+                  "SampleCount": 4
+                },
+                {
+                  "$id": "91",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "SKT",
+                  "Freq": 64.0,
+                  "Scale": 100.0,
+                  "ChannelCount": 1,
+                  "SampleCount": 4
+                },
+                {
+                  "$id": "92",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "ACCEL",
+                  "Freq": 64.0,
+                  "Scale": 4095.875,
+                  "ChannelCount": 3,
+                  "SampleCount": 4
+                },
+                {
+                  "$id": "93",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "GYRO",
+                  "Freq": 64.0,
+                  "Scale": 16.383499145507813,
+                  "ChannelCount": 3,
+                  "SampleCount": 4
+                },
+                {
+                  "$id": "94",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "MAG",
+                  "Freq": 64.0,
+                  "Scale": 6.82645845413208,
+                  "ChannelCount": 3,
+                  "SampleCount": 4
+                },
+                {
+                  "$id": "95",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "BPM",
+                  "Freq": 16.0,
+                  "Scale": 1.0,
+                  "ChannelCount": 1,
+                  "SampleCount": 1
+                },
+                {
+                  "$id": "96",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "RPM",
+                  "Freq": 16.0,
+                  "Scale": 1.0,
+                  "ChannelCount": 1,
+                  "SampleCount": 1
+                }
+              ]
+            }
+          },
+          {
+            "$id": "97",
+            "$type": "ErgoLAB.Record.Models.APIStreamModel, ErgoLAB",
+            "Name": "BLE_Finger8_TimeSeries",
+            "Type": "Finger8",
+            "Description": "实时Finger8数据。",
+            "IsEnabled": false,
+            "IsStarted": false,
+            "HasSubscribe": false,
+            "Freq": 8.0,
+            "ChannelArray": {
+              "$type": "ErgoLAB.Record.Models.BiosensorChannelModel[], ErgoLAB",
+              "$values": [
+                {
+                  "$id": "98",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "SystemTimeStamp",
+                  "Label": "Timestamp",
+                  "Unit": "μs"
+                },
+                {
+                  "$id": "99",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Validity",
+                  "Label": "Validity",
+                  "Unit": ""
+                },
+                {
+                  "$id": "100",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SpO₂",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "101",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SpO₂",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "102",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SpO₂",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "103",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SpO₂",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "104",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SpO₂",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "105",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SpO₂",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "106",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SpO₂",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "107",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SpO₂",
+                  "Unit": "%"
+                },
+                {
+                  "$id": "108",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "EDA",
+                  "Unit": "μS"
+                },
+                {
+                  "$id": "109",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "EDA",
+                  "Unit": "μS"
+                },
+                {
+                  "$id": "110",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "EDA",
+                  "Unit": "μS"
+                },
+                {
+                  "$id": "111",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "EDA",
+                  "Unit": "μS"
+                },
+                {
+                  "$id": "112",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "EDA",
+                  "Unit": "μS"
+                },
+                {
+                  "$id": "113",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "EDA",
+                  "Unit": "μS"
+                },
+                {
+                  "$id": "114",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "EDA",
+                  "Unit": "μS"
+                },
+                {
+                  "$id": "115",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "EDA",
+                  "Unit": "μS"
+                },
+                {
+                  "$id": "116",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "117",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "118",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "119",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "120",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "121",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "122",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "123",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "SKT",
+                  "Unit": "℃"
+                },
+                {
+                  "$id": "124",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "125",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "126",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "127",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "128",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "129",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "130",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "131",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_X",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "132",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "133",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "134",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "135",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "136",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "137",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "138",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "139",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Y",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "140",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "141",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "142",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "143",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "144",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "145",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "146",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "147",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "ACCELACCEL_Z",
+                  "Unit": "G"
+                },
+                {
+                  "$id": "148",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "149",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "150",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "151",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "152",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "153",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "154",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "155",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_X",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "156",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "157",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "158",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "159",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "160",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "161",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "162",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "163",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Y",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "164",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "165",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "166",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "167",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "168",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "169",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "170",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "171",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "GYROGYRO_Z",
+                  "Unit": "°/s"
+                },
+                {
+                  "$id": "172",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "173",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "174",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "175",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "176",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "177",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "178",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "179",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_X",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "180",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "181",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "182",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "183",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "184",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "185",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "186",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "187",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Y",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "188",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "189",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 1,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "190",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 2,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "191",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 3,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "192",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 4,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "193",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 5,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "194",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 6,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "195",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 7,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "MAGMAG_Z",
+                  "Unit": "µT"
+                },
+                {
+                  "$id": "196",
+                  "$type": "ErgoLAB.Record.Models.BiosensorChannelModel, ErgoLAB",
+                  "SampleIndex": 0,
+                  "Index": 0,
+                  "Type": "Finger",
+                  "Label": "BPM",
+                  "Unit": "bpm"
+                }
+              ]
+            },
+            "SignalArray": {
+              "$type": "ErgoLAB.Record.Models.SignalModelBase[], ErgoLAB",
+              "$values": [
+                {
+                  "$id": "197",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "SpO₂",
+                  "Freq": 64.0,
+                  "Scale": 100.0,
+                  "ChannelCount": 1,
+                  "SampleCount": 8
+                },
+                {
+                  "$id": "198",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "EDA",
+                  "Freq": 64.0,
+                  "Scale": 1000.0,
+                  "ChannelCount": 1,
+                  "SampleCount": 8
+                },
+                {
+                  "$id": "199",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "SKT",
+                  "Freq": 64.0,
+                  "Scale": 100.0,
+                  "ChannelCount": 1,
+                  "SampleCount": 8
+                },
+                {
+                  "$id": "200",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "ACCEL",
+                  "Freq": 64.0,
+                  "Scale": 4095.875,
+                  "ChannelCount": 3,
+                  "SampleCount": 8
+                },
+                {
+                  "$id": "201",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "GYRO",
+                  "Freq": 64.0,
+                  "Scale": 16.383499145507813,
+                  "ChannelCount": 3,
+                  "SampleCount": 8
+                },
+                {
+                  "$id": "202",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "MAG",
+                  "Freq": 64.0,
+                  "Scale": 6.82645845413208,
+                  "ChannelCount": 3,
+                  "SampleCount": 8
+                },
+                {
+                  "$id": "203",
+                  "$type": "ErgoLAB.Record.Models.SignalModelBase, ErgoLAB",
+                  "Type": "BPM",
+                  "Freq": 8.0,
+                  "Scale": 1.0,
+                  "ChannelCount": 1,
+                  "SampleCount": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "SubscriptionProp": 1
+    }
+  ]
+}

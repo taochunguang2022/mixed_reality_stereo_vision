@@ -1,0 +1,51 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.Project.Views.ProjectViewInfoModel, ErgoLAB",
+  "SearchBoxIsExpanded": false,
+  "SearchBoxValues": {
+    "$type": "System.String[], mscorlib",
+    "$values": []
+  },
+  "ExportDataViewInfoModel": {
+    "$id": "2",
+    "$type": "ErgoLAB.Project.Views.ExportDataViewInfoModel, ErgoLAB",
+    "BehaviorIsExpanded": true,
+    "EyetrackingIsExpanded": true,
+    "VehicleIsExpanded": true,
+    "FSRIsExpanded": true,
+    "IndoorPositionIsExpanded": true,
+    "BiometricIsExpanded": true,
+    "OthersIsExpanded": true,
+    "VideoIsExpanded": true,
+    "IsBehaviorSelectAll": false,
+    "IsEyetrackingSelectAll": false,
+    "IsVehicleSelectAll": false,
+    "IsFSRSelectAll": false,
+    "IsIndoorPositionSelectAll": false,
+    "IsBiometricSelectAll": false,
+    "IsOthersSelectAll": false
+  },
+  "RecordingGridOffset": "0,0",
+  "SubjectGridOffset": "0,6",
+  "VariableModelGridOffset": "0,0",
+  "ProjectSettingViewInfoModel": {
+    "$id": "3",
+    "$type": "ErgoLAB.Project.Controls.ProjectSettingViewInfoModel, ErgoLAB",
+    "ParamSelectedIndex": 1,
+    "AOISearchBoxIsExpanded": false,
+    "SOISearchBoxIsExpanded": false,
+    "EventTypeGridOffset": "0,0",
+    "CustomSegmentTypeGridOffset": "0,7",
+    "EventSegmentTypeGridOffset": "0,0",
+    "AOIGridOffset": "0,0",
+    "SOITreeListOffset": "0,0",
+    "Type": 0,
+    "ActiveItemIndex": 0
+  },
+  "Version": "3.16.13",
+  "ThemeColor": "#FF3F51B5",
+  "Type": 2,
+  "ActiveItemIndex": 0,
+  "Title": "begin",
+  "IconImageUri": "/ErgoLAB;component/Resources/home-32.png"
+}

@@ -1,0 +1,1494 @@
+{
+  "$id": "1",
+  "$type": "ErgoLAB.Statistics.Views.StatisticsViewInfoModel, ErgoLAB",
+  "SelectedStatisticsIndex": 0,
+  "ReportViewInfoModel": {
+    "$id": "2",
+    "$type": "ErgoLAB.Report.Views.ReportViewInfoModel, ErgoLAB",
+    "ReportArray": {
+      "$type": "ErgoLAB.Report.Models.AnalysisReportModel[], ErgoLAB",
+      "$values": []
+    },
+    "RecordingIdArray": {
+      "$type": "System.String[], mscorlib",
+      "$values": []
+    },
+    "SegmentTypeIdArray": {
+      "$type": "System.String[], mscorlib",
+      "$values": []
+    },
+    "BehaviorIdArray": {
+      "$type": "System.String[], mscorlib",
+      "$values": []
+    },
+    "ReportScrollOffset": "0,0",
+    "Type": 0,
+    "ActiveItemIndex": 0,
+    "IsItemClosable": false
+  },
+  "EventStatisticsViewInfoModel": {
+    "$id": "3",
+    "$type": "ErgoLAB.Statistics.Views.EventStatisticsViewInfoModel, ErgoLAB",
+    "SequenceAnalyzeModel": {
+      "$id": "4",
+      "$type": "ErgoLAB.Statistics.Models.EventSequenceAnalyzeModel, ErgoLAB",
+      "FilterRuleType": 0,
+      "CurrentSegmentType": {
+        "$id": "5",
+        "$type": "ErgoLAB.Project.Models.SegmentTypeModel, ErgoLAB",
+        "GroupType": 5,
+        "Name": "完整记录",
+        "Stimuli": {
+          "$id": "6",
+          "$type": "ErgoLAB.Design.Models.StimuliModel, ErgoLAB",
+          "Background": "#FFFFFFFF",
+          "SelectedDock": 4,
+          "SelectedScaling": 0,
+          "MediaType": 0,
+          "Time": 1.0,
+          "SyncBoxMarkerValue": 0,
+          "IsTime": false,
+          "IsUseCustomSwitchType": true,
+          "IsWirelessController": false,
+          "ItemWidth": 0,
+          "ItemHeight": 0,
+          "RecordItemWidth": 0,
+          "RecordItemHeight": 0,
+          "IsShowMouseCursor": true,
+          "IsRecordSound": true,
+          "IsRecordMouse": true,
+          "AbsoluteFilePath": "",
+          "AbsoluteThumbnailPath": "",
+          "Is3DFile": false,
+          "FileSize": "1000,1000",
+          "VideoDuration": 0.0,
+          "HasRecording": false,
+          "IsCopy": false,
+          "AbsoluteAudioPath": "",
+          "AudioDuration": 0.0,
+          "HasAudio": false,
+          "IsCut": false,
+          "IsDoubleTap": true,
+          "AbsoluteTopFilePath": "",
+          "AbsoluteTopThumbnailPath": "",
+          "AbsoluteBottomFilePath": "",
+          "AbsoluteBottomThumbnailPath": "",
+          "IsGenerateSegment": true,
+          "IsGenerateStartEvent": true,
+          "IsGenerateEndEvent": true,
+          "Stimulis": {
+            "$type": "Stylet.BindableCollection`1[[ErgoLAB.Design.Models.StimuliModel, ErgoLAB]], Stylet",
+            "$values": []
+          },
+          "GroupOrderType": 0,
+          "IsUserEditSize": false,
+          "Size": 0,
+          "Repetition": 1,
+          "RankType": 0,
+          "AbsoluteRecFilePath": ""
+        },
+        "StimuliSize": "1000,1000",
+        "AllowIntervalEvent": false,
+        "Id": "6549f7fbabcde317b0fc4294"
+      },
+      "SequenceCollection": {
+        "$type": "Stylet.BindableCollection`1[[ErgoLAB.Observation.Models.SequenceModelBase, ErgoLAB]], Stylet",
+        "$values": []
+      },
+      "StatisticsCollection": {
+        "$type": "Stylet.BindableCollection`1[[ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB]], Stylet",
+        "$values": [
+          {
+            "$id": "7",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "zdf",
+            "Fill": "#FFF5AB3D",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "8",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "qjw",
+            "Fill": "#FFAB3DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "9",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "djy",
+            "Fill": "#FFF53DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "10",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "qc",
+            "Fill": "#FFF5F53D",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "11",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "gxx",
+            "Fill": "#FF3DABF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "12",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "jsw",
+            "Fill": "#FF623DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "13",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "lh",
+            "Fill": "#FF3DF5F5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "14",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "zhs",
+            "Fill": "#FFF53DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "15",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "mtq",
+            "Fill": "#FF3DF587",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "16",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "zwl",
+            "Fill": "#FFF53D62",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "17",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "lfz",
+            "Fill": "#FFF53D62",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "18",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "zzt",
+            "Fill": "#FFAB3DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "19",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "jxt",
+            "Fill": "#FF3DF587",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          }
+        ]
+      },
+      "PreviewCollection": {
+        "$type": "Stylet.BindableCollection`1[[ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB]], Stylet",
+        "$values": [
+          {
+            "$id": "20",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "21",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "zdf",
+              "CreateDate": "2023-11-13T15:55:50.698+08:00",
+              "Duration": 3818.2556086,
+              "Subject": {
+                "$id": "22",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "赵殿飞",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "23"
+                  ]
+                },
+                "CreateDate": "2023-11-07T15:36:09.366+08:00",
+                "Id": "6549e8e9abcde317b0fc4198"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "6551d686abcde3274ca159b3"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "23",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "24",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "qjw",
+              "CreateDate": "2023-11-15T15:24:34.907+08:00",
+              "Duration": 3766.473427,
+              "Subject": {
+                "$id": "25",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "区嘉伟",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-15T14:04:52.845+08:00",
+                "Id": "65545f84abcde332f04eade8"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "65547232abcde332f04eaf07"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "26",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "27",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "djy",
+              "CreateDate": "2023-11-16T14:56:22.709+08:00",
+              "Duration": 3892.8735583,
+              "Subject": {
+                "$id": "28",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "董家言",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-16T14:49:14.196+08:00",
+                "Id": "6555bb6aabcde33348774e2a"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "6555bd16abcde33348774e81"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "29",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "30",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "qc",
+              "CreateDate": "2023-11-17T16:04:11.77+08:00",
+              "Duration": 3917.1632578999997,
+              "Subject": {
+                "$id": "31",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "屈灿",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-17T14:15:30.577+08:00",
+                "Id": "65570502abcde314788838ec"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "65571e7babcde3147888399e"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "32",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "33",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "gxx",
+              "CreateDate": "2023-11-20T11:12:28.681+08:00",
+              "Duration": 3830.1670801,
+              "Subject": {
+                "$id": "34",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "葛雄心",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-20T10:10:21.374+08:00",
+                "Id": "655ac00dabcde33408254b85"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "655ace9cabcde33408254bb6"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "35",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "36",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "jsw",
+              "CreateDate": "2023-11-23T09:59:39.872+08:00",
+              "Duration": 4017.6984961,
+              "Subject": {
+                "$id": "37",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "姬生文",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-23T09:48:49.793+08:00",
+                "Id": "655eaf81abcde3014001fbd0"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "655eb20babcde3014001fc10"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "38",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "39",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "lh",
+              "CreateDate": "2023-11-24T15:33:22.914+08:00",
+              "Duration": 3766.9683615,
+              "Subject": {
+                "$id": "40",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "梁浩",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-24T14:49:38.966+08:00",
+                "Id": "65604782abcde319a025b250"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "656051c2abcde319a025b598"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "41",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "42",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "zhs",
+              "CreateDate": "2023-11-25T15:12:45.808+08:00",
+              "Duration": 3761.6313102,
+              "Subject": {
+                "$id": "43",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "张海硕",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-25T14:55:43.588+08:00",
+                "Id": "65619a6fabcde31998c34949"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "65619e6dabcde31998c3496b"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "44",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "45",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "mtq",
+              "CreateDate": "2024-07-04T10:23:33.253+08:00",
+              "Duration": 3792.8988098,
+              "Subject": {
+                "$id": "46",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "牟天琦",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2024-07-04T09:52:56.194+08:00",
+                "Id": "66860078abcde33464d64073"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "668607a5abcde32e384b983e"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "47",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "48",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "zwl",
+              "CreateDate": "2024-07-04T15:46:05.636+08:00",
+              "Duration": 3798.7796853,
+              "Subject": {
+                "$id": "49",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "趙文莉",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "23"
+                  ]
+                },
+                "CreateDate": "2024-07-04T15:42:33.265+08:00",
+                "Id": "66865269abcde30a0cf77b70"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "6686533dabcde30a0cf77b92"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "50",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "51",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "lfz",
+              "CreateDate": "2024-07-05T15:34:35.843+08:00",
+              "Duration": 3862.8500197999997,
+              "Subject": {
+                "$id": "52",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "劉方姿",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "22"
+                  ]
+                },
+                "CreateDate": "2024-07-05T15:26:01.498+08:00",
+                "Id": "6687a009abcde30a382c7922"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "6687a20babcde30a382c7944"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "53",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "54",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "zzt",
+              "CreateDate": "2024-07-09T09:45:22.251+08:00",
+              "Duration": 3775.9842363,
+              "Subject": {
+                "$id": "55",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "張紫婷",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2024-07-09T09:36:40.532+08:00",
+                "Id": "668c9428abcde342308a6e3d"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "668c9632abcde342308a6e94"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "56",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "57",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "jxt",
+              "CreateDate": "2024-07-10T15:06:41.993+08:00",
+              "Duration": 3795.7309870999998,
+              "Subject": {
+                "$id": "58",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "焦相婷",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "23"
+                  ]
+                },
+                "CreateDate": "2024-07-10T14:34:19.058+08:00",
+                "Id": "668e2b6babcde32b28248e89"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "668e3301abcde32b801c3819"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          }
+        ]
+      },
+      "SelectionType": 0,
+      "IsSequenceEnabled": true,
+      "SequenceType": 0,
+      "TimeType": 0
+    },
+    "EventFilterViewInfoModel": {
+      "$id": "59",
+      "$type": "ErgoLAB.Statistics.Controls.EventFilterViewInfoModel, ErgoLAB",
+      "EventFilterOffset": "0,0",
+      "SearchBoxIsExpanded": false,
+      "GroupSearchBoxIsExpanded": false,
+      "RecordingTypeDict": {
+        "$id": "60",
+        "$type": "System.Collections.Generic.Dictionary`2[[ErgoLAB.Common.Enums.EventGroupType, ErgoLAB.Common],[System.Boolean, mscorlib]], mscorlib"
+      }
+    },
+    "TemplatesIsExpanded": true,
+    "SequenceIsExpanded": true,
+    "StatisticsIsExpanded": true,
+    "SequenceStatisticsIsExpanded": true,
+    "ParametersIsExpanded": true,
+    "SequencePreviewGridOffset": "0,0",
+    "StatisticsScrollViewerOffset": "0,0",
+    "StatisticsDataGridOffset": "0,0",
+    "SegmentTypeSelectionViewInfoModel": {
+      "$id": "61",
+      "$type": "ErgoLAB.Project.Controls.SegmentTypeSelectionViewInfoModel, ErgoLAB",
+      "SegmentsIsExpanded": true,
+      "SegmentTypeListViewOffset": "0,0",
+      "LocalSegmentTypeListViewOffset": "0,0",
+      "SegmentTypeSearchSources": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "LastSelectedSegmentTypeModel": {
+        "$ref": "5"
+      },
+      "Type": 0,
+      "ActiveItemIndex": 0
+    },
+    "SegmentTypeDict": {
+      "$id": "62",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib",
+      "Custom": true,
+      "Image": true,
+      "Video": true,
+      "Webpage": true,
+      "MappingImage": false
+    },
+    "Type": 0,
+    "ActiveItemIndex": 0,
+    "IsItemClosable": false
+  },
+  "SegmentStatisticsViewInfoModel": {
+    "$id": "63",
+    "$type": "ErgoLAB.Statistics.Views.SegmentStatisticsViewInfoModel, ErgoLAB",
+    "SequenceAnalyzeModel": {
+      "$id": "64",
+      "$type": "ErgoLAB.Statistics.Models.SegmentSequenceAnalyzeModel, ErgoLAB",
+      "CurrentSegmentType": {
+        "$id": "65",
+        "$type": "ErgoLAB.Project.Models.SegmentTypeModel, ErgoLAB",
+        "GroupType": 5,
+        "Name": "完整记录",
+        "Stimuli": {
+          "$id": "66",
+          "$type": "ErgoLAB.Design.Models.StimuliModel, ErgoLAB",
+          "Background": "#FFFFFFFF",
+          "SelectedDock": 4,
+          "SelectedScaling": 0,
+          "MediaType": 0,
+          "Time": 1.0,
+          "SyncBoxMarkerValue": 0,
+          "IsTime": false,
+          "IsUseCustomSwitchType": true,
+          "IsWirelessController": false,
+          "ItemWidth": 0,
+          "ItemHeight": 0,
+          "RecordItemWidth": 0,
+          "RecordItemHeight": 0,
+          "IsShowMouseCursor": true,
+          "IsRecordSound": true,
+          "IsRecordMouse": true,
+          "AbsoluteFilePath": "",
+          "AbsoluteThumbnailPath": "",
+          "Is3DFile": false,
+          "FileSize": "1000,1000",
+          "VideoDuration": 0.0,
+          "HasRecording": false,
+          "IsCopy": false,
+          "AbsoluteAudioPath": "",
+          "AudioDuration": 0.0,
+          "HasAudio": false,
+          "IsCut": false,
+          "IsDoubleTap": true,
+          "AbsoluteTopFilePath": "",
+          "AbsoluteTopThumbnailPath": "",
+          "AbsoluteBottomFilePath": "",
+          "AbsoluteBottomThumbnailPath": "",
+          "IsGenerateSegment": true,
+          "IsGenerateStartEvent": true,
+          "IsGenerateEndEvent": true,
+          "Stimulis": {
+            "$type": "Stylet.BindableCollection`1[[ErgoLAB.Design.Models.StimuliModel, ErgoLAB]], Stylet",
+            "$values": []
+          },
+          "GroupOrderType": 0,
+          "IsUserEditSize": false,
+          "Size": 0,
+          "Repetition": 1,
+          "RankType": 0,
+          "AbsoluteRecFilePath": ""
+        },
+        "StimuliSize": "1000,1000",
+        "AllowIntervalEvent": false,
+        "Id": "6549f7fbabcde317b0fc4294"
+      },
+      "SequenceCollection": {
+        "$type": "Stylet.BindableCollection`1[[ErgoLAB.Observation.Models.SequenceModelBase, ErgoLAB]], Stylet",
+        "$values": []
+      },
+      "StatisticsCollection": {
+        "$type": "Stylet.BindableCollection`1[[ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB]], Stylet",
+        "$values": [
+          {
+            "$id": "67",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "zdf",
+            "Fill": "#FFF5AB3D",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "68",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "qjw",
+            "Fill": "#FFAB3DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "69",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "djy",
+            "Fill": "#FFF53DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "70",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "qc",
+            "Fill": "#FFF5F53D",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "71",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "gxx",
+            "Fill": "#FF3DABF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "72",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "jsw",
+            "Fill": "#FF623DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "73",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "lh",
+            "Fill": "#FF3DF5F5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "74",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "zhs",
+            "Fill": "#FFF53DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "75",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "mtq",
+            "Fill": "#FF3DF587",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "76",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "zwl",
+            "Fill": "#FFF53D62",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "77",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "lfz",
+            "Fill": "#FFF53D62",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "78",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "zzt",
+            "Fill": "#FFAB3DF5",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          },
+          {
+            "$id": "79",
+            "$type": "ErgoLAB.Statistics.Models.SequenceStatisticsModelBase, ErgoLAB",
+            "Name": "jxt",
+            "Fill": "#FF3DF587",
+            "TotalCount": 0,
+            "AverageCount": 0.0,
+            "AverageDuration": 0.0,
+            "TotalDuration": 0.0
+          }
+        ]
+      },
+      "PreviewCollection": {
+        "$type": "Stylet.BindableCollection`1[[ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB]], Stylet",
+        "$values": [
+          {
+            "$id": "80",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "81",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "zdf",
+              "CreateDate": "2023-11-13T15:55:50.698+08:00",
+              "Duration": 3818.2556086,
+              "Subject": {
+                "$id": "82",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "赵殿飞",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "23"
+                  ]
+                },
+                "CreateDate": "2023-11-07T15:36:09.366+08:00",
+                "Id": "6549e8e9abcde317b0fc4198"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "6551d686abcde3274ca159b3"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "83",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "84",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "qjw",
+              "CreateDate": "2023-11-15T15:24:34.907+08:00",
+              "Duration": 3766.473427,
+              "Subject": {
+                "$id": "85",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "区嘉伟",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-15T14:04:52.845+08:00",
+                "Id": "65545f84abcde332f04eade8"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "65547232abcde332f04eaf07"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "86",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "87",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "djy",
+              "CreateDate": "2023-11-16T14:56:22.709+08:00",
+              "Duration": 3892.8735583,
+              "Subject": {
+                "$id": "88",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "董家言",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-16T14:49:14.196+08:00",
+                "Id": "6555bb6aabcde33348774e2a"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "6555bd16abcde33348774e81"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "89",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "90",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "qc",
+              "CreateDate": "2023-11-17T16:04:11.77+08:00",
+              "Duration": 3917.1632578999997,
+              "Subject": {
+                "$id": "91",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "屈灿",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-17T14:15:30.577+08:00",
+                "Id": "65570502abcde314788838ec"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "65571e7babcde3147888399e"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "92",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "93",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "gxx",
+              "CreateDate": "2023-11-20T11:12:28.681+08:00",
+              "Duration": 3830.1670801,
+              "Subject": {
+                "$id": "94",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "葛雄心",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-20T10:10:21.374+08:00",
+                "Id": "655ac00dabcde33408254b85"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "655ace9cabcde33408254bb6"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "95",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "96",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "jsw",
+              "CreateDate": "2023-11-23T09:59:39.872+08:00",
+              "Duration": 4017.6984961,
+              "Subject": {
+                "$id": "97",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "姬生文",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-23T09:48:49.793+08:00",
+                "Id": "655eaf81abcde3014001fbd0"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "655eb20babcde3014001fc10"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "98",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "99",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "lh",
+              "CreateDate": "2023-11-24T15:33:22.914+08:00",
+              "Duration": 3766.9683615,
+              "Subject": {
+                "$id": "100",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "梁浩",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-24T14:49:38.966+08:00",
+                "Id": "65604782abcde319a025b250"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "656051c2abcde319a025b598"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "101",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "102",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "zhs",
+              "CreateDate": "2023-11-25T15:12:45.808+08:00",
+              "Duration": 3761.6313102,
+              "Subject": {
+                "$id": "103",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "张海硕",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "男",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2023-11-25T14:55:43.588+08:00",
+                "Id": "65619a6fabcde31998c34949"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "65619e6dabcde31998c3496b"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "104",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "105",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "mtq",
+              "CreateDate": "2024-07-04T10:23:33.253+08:00",
+              "Duration": 3792.8988098,
+              "Subject": {
+                "$id": "106",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "牟天琦",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2024-07-04T09:52:56.194+08:00",
+                "Id": "66860078abcde33464d64073"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "668607a5abcde32e384b983e"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "107",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "108",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "zwl",
+              "CreateDate": "2024-07-04T15:46:05.636+08:00",
+              "Duration": 3798.7796853,
+              "Subject": {
+                "$id": "109",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "趙文莉",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "23"
+                  ]
+                },
+                "CreateDate": "2024-07-04T15:42:33.265+08:00",
+                "Id": "66865269abcde30a0cf77b70"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "6686533dabcde30a0cf77b92"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "110",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "111",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "lfz",
+              "CreateDate": "2024-07-05T15:34:35.843+08:00",
+              "Duration": 3862.8500197999997,
+              "Subject": {
+                "$id": "112",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "劉方姿",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "22"
+                  ]
+                },
+                "CreateDate": "2024-07-05T15:26:01.498+08:00",
+                "Id": "6687a009abcde30a382c7922"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "6687a20babcde30a382c7944"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "113",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "114",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "zzt",
+              "CreateDate": "2024-07-09T09:45:22.251+08:00",
+              "Duration": 3775.9842363,
+              "Subject": {
+                "$id": "115",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "張紫婷",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "24"
+                  ]
+                },
+                "CreateDate": "2024-07-09T09:36:40.532+08:00",
+                "Id": "668c9428abcde342308a6e3d"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "668c9632abcde342308a6e94"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          },
+          {
+            "$id": "116",
+            "$type": "ErgoLAB.Eyetracking.Models.SequencePreviewModel, ErgoLAB",
+            "Recording": {
+              "$id": "117",
+              "$type": "ErgoLAB.Project.Models.RecordingModel, ErgoLAB",
+              "Name": "jxt",
+              "CreateDate": "2024-07-10T15:06:41.993+08:00",
+              "Duration": 3795.7309870999998,
+              "Subject": {
+                "$id": "118",
+                "$type": "ErgoLAB.Project.Models.SubjectModel, ErgoLAB",
+                "Name": "焦相婷",
+                "VariableValues": {
+                  "$type": "Stylet.BindableCollection`1[[System.String, mscorlib]], Stylet",
+                  "$values": [
+                    "女",
+                    "23"
+                  ]
+                },
+                "CreateDate": "2024-07-10T14:34:19.058+08:00",
+                "Id": "668e2b6babcde32b28248e89"
+              },
+              "StimuliSize": "1920,1080",
+              "StimuliType": 0,
+              "Id": "668e3301abcde32b801c3819"
+            },
+            "SequencePreviewCollection": {
+              "$type": "System.Collections.Generic.List`1[[ErgoLAB.AppFoundation.Controls.SequencePreviewTemplateModel, ErgoLAB]], mscorlib",
+              "$values": []
+            },
+            "SequenceHighLightIndexCollection": {
+              "$type": "System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib",
+              "$values": []
+            }
+          }
+        ]
+      },
+      "SelectionType": 0,
+      "IsSequenceEnabled": true,
+      "SequenceType": 0,
+      "TimeType": 0
+    },
+    "SegmentFilterViewInfoModel": {
+      "$id": "119",
+      "$type": "ErgoLAB.Statistics.Controls.SegmentFilterViewInfoModel, ErgoLAB",
+      "SegmentFilterOffset": "0,0",
+      "SearchBoxIsExpanded": false,
+      "RecordingTypeDict": {
+        "$id": "120",
+        "$type": "System.Collections.Generic.Dictionary`2[[ErgoLAB.Common.Enums.SegmentGroupType, ErgoLAB.Common],[System.Boolean, mscorlib]], mscorlib"
+      }
+    },
+    "TemplatesIsExpanded": true,
+    "SequenceIsExpanded": true,
+    "StatisticsIsExpanded": true,
+    "SequenceStatisticsIsExpanded": true,
+    "ParametersIsExpanded": true,
+    "SequencePreviewGridOffset": "0,0",
+    "StatisticsScrollViewerOffset": "0,0",
+    "StatisticsDataGridOffset": "0,0",
+    "SegmentTypeSelectionViewInfoModel": {
+      "$id": "121",
+      "$type": "ErgoLAB.Project.Controls.SegmentTypeSelectionViewInfoModel, ErgoLAB",
+      "SegmentsIsExpanded": true,
+      "SegmentTypeListViewOffset": "0,0",
+      "LocalSegmentTypeListViewOffset": "0,0",
+      "SegmentTypeSearchSources": {
+        "$type": "System.String[], mscorlib",
+        "$values": []
+      },
+      "LastSelectedSegmentTypeModel": {
+        "$ref": "65"
+      },
+      "Type": 0,
+      "ActiveItemIndex": 0
+    },
+    "SegmentTypeDict": {
+      "$id": "122",
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean, mscorlib]], mscorlib",
+      "Custom": true,
+      "Image": true,
+      "Video": true,
+      "Webpage": true,
+      "MappingImage": false
+    },
+    "Type": 0,
+    "ActiveItemIndex": 0,
+    "IsItemClosable": false
+  },
+  "Version": "3.16.13",
+  "IsEnabled": true,
+  "ThemeColor": "#FF43A047",
+  "Type": 10,
+  "ActiveItemIndex": 0,
+  "Title": "综合统计",
+  "IsItemClosable": false
+}
