@@ -1,1 +1,2 @@
-The raw EEG data please access via the Openneuro platform.
+The raw EEG data please access via the Openneuro platform.  
+See details of these participants in our paper.
