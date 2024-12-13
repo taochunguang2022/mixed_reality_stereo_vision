@@ -3,3 +3,4 @@ A study on the characterization of stereoscopic visual fatigue induced by mixed 
  ![image](https://github.com/taochunguang2022/mixed_reality_stereo_vision/blob/main/device.jpg)
 ## EEG pre-processing procedure
 The "resting_state_eeg" folder represents the preprocessed EEG data from 23 participants. The specific preprocessing steps are outlined below:
+ ![image](https://github.com/taochunguang2022/mixed_reality_stereo_vision/blob/main/data_preprocessing.jpg)
