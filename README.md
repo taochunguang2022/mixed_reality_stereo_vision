@@ -52,3 +52,6 @@ For the graph dataset presented as a .csv format file, each graph structure cont
 ### Label Descriptor
  - 0: comfort
  - 1: fatigue
+### Classification
+ - GraphSAGE/ GINConv
+
