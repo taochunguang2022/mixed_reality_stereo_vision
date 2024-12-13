@@ -15,7 +15,7 @@ The "resting_state_eeg" folder represents the preprocessed EEG data from 23 part
 - Manual inspection
   - Plot->channel data(scroll); Seeking the bad channels and epochs
 - Run ICA
-  - An Independent Component Analysis (ICA) algorithm was run to isolate independent components in the data, which were then combined with the ICLABEL version 1.4 toolkit to identify and remove artefacts such as Electrocardiography (ECG) and Electromyography (EMG) interference
+  - An Independent Component Analysis (ICA) algorithm was run to isolate independent components in the data, which were then combined with the ICLABEL toolkit to identify and remove artefacts 
 - Auto find abnormal values
   - Abnormal values were identified to remove epochs with amplitudes exceeding ±100 µV
 - Average re-referencing
