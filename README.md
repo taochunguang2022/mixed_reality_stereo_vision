@@ -20,3 +20,5 @@ The "resting_state_eeg" folder represents the preprocessed EEG data from 23 part
   - Abnormal values were identified to remove epochs with amplitudes exceeding ±100 µV
 - Average re-referencing
   - Data from all channels were used to calculate a common average reference
+## Brain Network Construction
+After preprocessing the EEG signals, brain networks were constructed using a Phase-Locked Value (PLV) method. The specific details are as follows: First, the preprocessed EEG recordings were band-pass filtered with delta (0.5–4 Hz), theta (4–8 Hz), and alpha (8–13 Hz) frequency bands. Second, the PLV matrix was calculated, which consisted of the functional connectivity between all possible electrode pairs (Please see the "calculated_plv" folder). Third, the brain network was constructed based on the calculated PLV matrix by applying an appropriate threshold T. Finally, topological characteristics were calculated from the constructed brain networks between comfort and fatigue states. The "code_eeg_characteristic" folder mainly include related code above mentioned.
