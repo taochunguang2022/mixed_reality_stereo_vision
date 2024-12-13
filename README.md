@@ -28,3 +28,7 @@ After preprocessing the EEG signals, brain networks were constructed using a Pha
   - This script performs statistical analysis on functional connectivity measures between two conditions (comfort vs uncomfort) based on the calculated_plv folder. Statistical testing (this study selected paired t-tests) is conducted for each functional connection to identify significant differences. False discovery rate (FDR) correction is applied to control for multiple comparisons. Significant connections are visualized in separate plots, highlighting differences between conditions.
 - single_subject script
   - This script visualizes the connectivity patterns for each condition using topographic plots by applying a specified threshold. This analysis can be conducted using paired t-tests. The choice of threshold is currently no definitive criterion. This study calculated the top 20% of PLV values for each participant across the alpha, theta, and delta frequency bands under comfort and uncomfort conditions. Finally, the threshold interval is 0.72 to 0.76 incrementally by 0.01 steps.
+ - topoplot_connect_1 script
+   - This script was utilized for the purpose of visualizing topographic plots
+ - c1-5 scripts
+   - These scrpts mainly calculate topological properties based on constructed brain networks. Node properties include betweenness centrality (BC), clustering coefficient (CC), and node efficiency (NE), and edge properties include characteristic path lengths (CPL) . Please see details in these scripts.
