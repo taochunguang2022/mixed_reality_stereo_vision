@@ -54,4 +54,10 @@ For the graph dataset presented as a .csv format file, each graph structure cont
  - 1: fatigue
 ### Classification
  - GraphSAGE/ GINConv
+   - They solely consider node features
+ - GraphConv/ GATConv
+   - They incorporate both node and edge features
+### Model Visualization
+   Taking GraphSAGE and GraphConv models as examples:
+   
 
