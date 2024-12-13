@@ -60,5 +60,6 @@ For the graph dataset presented as a .csv format file, each graph structure cont
 ### Model Visualization
    Taking GraphSAGE and GraphConv models as examples:
    ![image](https://github.com/taochunguang2022/mixed_reality_stereo_vision/blob/main/code_classification.jpg)
+## Peripheral physiological signals pre-processing procedure
    
 
