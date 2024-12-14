@@ -61,5 +61,7 @@ For the graph dataset presented as a .csv format file, each graph structure cont
    Taking GraphSAGE and GraphConv models as examples:
    ![image](https://github.com/taochunguang2022/mixed_reality_stereo_vision/blob/main/code_classification.jpg)
 ## Peripheral physiological signals pre-processing procedure
+Considering that the raw peripheral physiological signals folder "erolab_raw_data" requires the installation of ErgoLAB software and the use of a dongle to open it, we have exported the results of our analysis to the folder "export_ergolab_data".
+![image](https://github.com/taochunguang2022/mixed_reality_stereo_vision/blob/main/peripheral_signal.jpg)
    
 
