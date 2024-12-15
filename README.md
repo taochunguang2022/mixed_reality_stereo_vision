@@ -77,5 +77,17 @@ The "corpus" folder represents different features.
 - code_combine_dataset
   - This study mainly focused on making the multimodal feature dataset following the format of the [PhysioNet Mortality Prediction Challenge 2012 dataset](https://physionet.org/content/challenge-2012/1.0.0/)
   - This study has completed the multimodal dataset, please [visit](https://github.com/taochunguang2022/mixed_reality_stereo_vision_model)
+## Cite
+```bibtex
+@article{wu2024fatigue,
+  title={Fatigue Characterization of EEG Brain Networks Under Mixed Reality Stereo Vision},
+  author={Wu, Yan and Tao, Chunguang and Li, Qi},
+  journal={Brain Sciences},
+  volume={14},
+  number={11},
+  pages={1126},
+  year={2024},
+  publisher={MDPI}
+}
 
 
