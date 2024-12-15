@@ -74,5 +74,8 @@ Considering that the raw peripheral physiological signals folder "erolab_raw_dat
 ## Corpus 
 The "corpus" folder represents different features. 
  ![image](https://github.com/taochunguang2022/mixed_reality_stereo_vision/blob/main/corpus.jpg)
+- code_combine_dataset
+  - This study mainly focused on making the multimodal feature dataset following the format of the [PhysioNet Mortality Prediction Challenge 2012 dataset](https://physionet.org/content/challenge-2012/1.0.0/)
+  - This study has completed the multimodal dataset, please [visit](https://github.com/taochunguang2022/mixed_reality_stereo_vision_model)
 
 
