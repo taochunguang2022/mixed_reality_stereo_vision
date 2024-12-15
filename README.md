@@ -71,5 +71,6 @@ Considering that the raw peripheral physiological signals folder "erolab_raw_dat
   - The same wavelet denoising technique was used to remove noise. The data were band-pass filtered (0.5–20 Hz), with a notch filter at 50 Hz. The maximum respiratory frequency for R-peak detection was 100 rpm, and the R-peak threshold was 50%.
 - Analysis of skin electrical signal
   - A Savitzky-Golay smoothing filter was applied and the cutoff frequency of the low-pass filter was set to 5 Hz. The software was configured to detect the skin electrical response (SCR) with medium sensitivity, a maximum rise time of 4s, a maximum half-decay time of 4s, and a minimum SCR amplitude of 0.03 µS.
-   
+## Corpus 
+
 
