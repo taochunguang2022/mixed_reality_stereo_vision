@@ -72,5 +72,7 @@ Considering that the raw peripheral physiological signals folder "erolab_raw_dat
 - Analysis of skin electrical signal
   - A Savitzky-Golay smoothing filter was applied and the cutoff frequency of the low-pass filter was set to 5 Hz. The software was configured to detect the skin electrical response (SCR) with medium sensitivity, a maximum rise time of 4s, a maximum half-decay time of 4s, and a minimum SCR amplitude of 0.03 µS.
 ## Corpus 
+The "corpus" folder represents different features. 
+ ![image](https://github.com/taochunguang2022/mixed_reality_stereo_vision/blob/main/corpus.jpg)
 
 
