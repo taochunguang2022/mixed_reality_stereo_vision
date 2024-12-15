@@ -63,5 +63,13 @@ For the graph dataset presented as a .csv format file, each graph structure cont
 ## Peripheral physiological signals pre-processing procedure
 Considering that the raw peripheral physiological signals folder "erolab_raw_data" requires the installation of ErgoLAB software and the use of a dongle to open it, we have exported the results of our analysis to the folder "export_ergolab_data".
 ![image](https://github.com/taochunguang2022/mixed_reality_stereo_vision/blob/main/peripheral_signal.jpg)
+- Load the original data
+  - In the raw peripheral physiological signals pre-processing procedure, The erolab_raw_data folder was imported to ErgoLAB 3.0.
+- Analysis of heart rate variability (HRV) 
+  - Wavelet denoising of ECG signals was performed. The data were band-pass filtered (1–100 Hz), with a notch filter at 50 Hz. The software system was established the maximum heart rate at 120 bpm and set the R-peak threshold to 70%. It also selected the median (number of samples) method to detect and correct outliers, thereby obtaining the HR and RR intervals.
+- Analysis of respiratory (RESP)
+  - The same wavelet denoising technique was used to remove noise. The data were band-pass filtered (0.5–20 Hz), with a notch filter at 50 Hz. The maximum respiratory frequency for R-peak detection was 100 rpm, and the R-peak threshold was 50%.
+- Analysis of skin electrical signal
+  - A Savitzky-Golay smoothing filter was applied and the cutoff frequency of the low-pass filter was set to 5 Hz. The software was configured to detect the skin electrical response (SCR) with medium sensitivity, a maximum rise time of 4s, a maximum half-decay time of 4s, and a minimum SCR amplitude of 0.03 µS.
    
 
